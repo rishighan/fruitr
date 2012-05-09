@@ -1,0 +1,455 @@
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Wed May 09 17:20:04 -0400 2012
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed May 09 17:20:04 -0400 2012
+Served asset /rails.png - 200 OK (2ms)
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (1.7ms)
+Completed 200 OK in 27ms (Views: 26.5ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed May 09 17:52:51 -0400 2012
+Served asset /rails.png - 304 Not Modified (16ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Wed May 09 17:52:52 -0400 2012
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (1.7ms)
+Completed 200 OK in 23ms (Views: 22.4ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (96ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed May 09 18:08:19 -0400 2012
+Served asset /rails.png - 304 Not Modified (16ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Wed May 09 18:08:20 -0400 2012
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (1.7ms)
+Completed 200 OK in 10ms (Views: 10.0ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/track" for 127.0.0.1 at Wed May 09 18:09:01 -0400 2012
+
+ActionController::RoutingError (No route matches [GET] "/track"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/track" for 127.0.0.1 at Wed May 09 18:09:30 -0400 2012
+
+ActionController::RoutingError (No route matches [GET] "/track"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tracks" for 127.0.0.1 at Wed May 09 18:09:32 -0400 2012
+  Processing by TracksController#index as HTML
+MONGODB (44ms) fruitr_development['system.namespaces'].find({})
+MONGODB (1381ms) fruitr_development['$cmd'].find(#<BSON::OrderedHash:0x83d2cc28 {"create"=>"tracks"}>).limit(-1)
+MONGODB (21ms) fruitr_development['tracks'].find({})
+Rendered tracks/index.html.erb within layouts/application (1459.8ms)
+Compiled application.css  (12ms)  (pid 48739)
+Compiled scaffolds.css  (67ms)  (pid 48739)
+Compiled tracks.css  (102ms)  (pid 48739)
+Compiled application.js  (233ms)  (pid 48739)
+Compiled jquery.js  (1039ms)  (pid 48739)
+Compiled jquery_ujs.js  (496ms)  (pid 48739)
+Compiled tracks.js  (1180ms)  (pid 48739)
+Completed 200 OK in 4964ms (Views: 4963.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:09:38 -0400 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:09:38 -0400 2012
+Served asset /tracks.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed May 09 18:09:38 -0400 2012
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed May 09 18:09:38 -0400 2012
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Wed May 09 18:09:38 -0400 2012
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:09:38 -0400 2012
+Served asset /tracks.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:09:41 -0400 2012
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at Wed May 09 18:09:44 -0400 2012
+  Processing by TracksController#new as HTML
+Rendered tracks/_form.html.erb (160.3ms)
+Rendered tracks/new.html.erb within layouts/application (184.4ms)
+Completed 200 OK in 230ms (Views: 228.4ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:09:44 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:09:44 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /tracks.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:09:44 -0400 2012
+Served asset /tracks.js - 304 Not Modified (2ms)
+
+
+Started POST "/tracks" for 127.0.0.1 at Wed May 09 18:09:54 -0400 2012
+  Processing by TracksController#create as HTML
+  Parameters: {"commit"=>"Create Track", "track"=>{"name"=>"Something Good can Work"}, "authenticity_token"=>"oG4JTuJdKB7/abmzgLsv8Tq33Ii6EshKdSLHz8NDP2U=", "utf8"=>"\342\234\223"}
+MONGODB (0ms) fruitr_development['system.namespaces'].find({})
+MONGODB (0ms) fruitr_development['tracks'].insert([{"name"=>"Something Good can Work", "_id"=>BSON::ObjectId('4faaeb3291e335bea1000001')}])
+Redirected to http://localhost:3000/tracks/4faaeb3291e335bea1000001
+Completed 302 Found in 9ms
+
+
+Started GET "/tracks/4faaeb3291e335bea1000001" for 127.0.0.1 at Wed May 09 18:09:54 -0400 2012
+  Processing by TracksController#show as HTML
+  Parameters: {"id"=>"4faaeb3291e335bea1000001"}
+MONGODB (0ms) fruitr_development['system.namespaces'].find({})
+MONGODB (9ms) fruitr_development['tracks'].find({:_id=>BSON::ObjectId('4faaeb3291e335bea1000001')}).limit(-1).sort(_idasc)
+Rendered tracks/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 40ms (Views: 29.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:09:54 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:09:54 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:09:54 -0400 2012
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:09:54 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/tracks" for 127.0.0.1 at Wed May 09 18:09:56 -0400 2012
+  Processing by TracksController#index as HTML
+MONGODB (0ms) fruitr_development['system.namespaces'].find({})
+MONGODB (0ms) fruitr_development['tracks'].find({})
+Rendered tracks/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 67ms (Views: 67.0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:09:56 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:09:56 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:09:56 -0400 2012
+Served asset /tracks.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:09:56 -0400 2012
+Served asset /application.css - 304 Not Modified (1ms)
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at Wed May 09 18:09:58 -0400 2012
+  Processing by TracksController#new as HTML
+Rendered tracks/_form.html.erb (4.3ms)
+Rendered tracks/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 18ms (Views: 17.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:09:58 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:09:58 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:09:58 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:09:58 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /tracks.js - 304 Not Modified (2ms)
+Served asset /tracks.css - 304 Not Modified (1ms)
+
+
+Started POST "/tracks" for 127.0.0.1 at Wed May 09 18:11:01 -0400 2012
+  Processing by TracksController#create as HTML
+  Parameters: {"commit"=>"Create Track", "track"=>{"name"=>"Schizophrenia"}, "authenticity_token"=>"oG4JTuJdKB7/abmzgLsv8Tq33Ii6EshKdSLHz8NDP2U=", "utf8"=>"\342\234\223"}
+MONGODB (0ms) fruitr_development['system.namespaces'].find({})
+MONGODB (0ms) fruitr_development['tracks'].insert([{"name"=>"Schizophrenia", "_id"=>BSON::ObjectId('4faaeb7591e335bea1000002')}])
+Redirected to http://localhost:3000/tracks/4faaeb7591e335bea1000002
+Completed 302 Found in 3ms
+
+
+Started GET "/tracks/4faaeb7591e335bea1000002" for 127.0.0.1 at Wed May 09 18:11:01 -0400 2012
+  Processing by TracksController#show as HTML
+  Parameters: {"id"=>"4faaeb7591e335bea1000002"}
+MONGODB (0ms) fruitr_development['system.namespaces'].find({})
+MONGODB (0ms) fruitr_development['tracks'].find({:_id=>BSON::ObjectId('4faaeb7591e335bea1000002')}).limit(-1).sort(_idasc)
+Rendered tracks/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 9.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:11:01 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Wed May 09 18:11:01 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:11:01 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:11:01 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+Served asset /tracks.css - 304 Not Modified (2ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:11:01 -0400 2012
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/tracks" for 127.0.0.1 at Wed May 09 18:11:03 -0400 2012
+  Processing by TracksController#index as HTML
+MONGODB (13ms) fruitr_development['system.namespaces'].find({})
+MONGODB (0ms) fruitr_development['tracks'].find({})
+Rendered tracks/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 85ms (Views: 84.7ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:11:03 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:11:03 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Wed May 09 18:11:03 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:11:03 -0400 2012
+Served asset /tracks.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:11:03 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at Wed May 09 18:11:06 -0400 2012
+  Processing by TracksController#new as HTML
+Rendered tracks/_form.html.erb (4.1ms)
+Rendered tracks/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 21ms (Views: 20.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:11:06 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:11:06 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Wed May 09 18:11:06 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:11:06 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:11:06 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+Served asset /tracks.js - 304 Not Modified (1ms)
+
+
+Started POST "/tracks" for 127.0.0.1 at Wed May 09 18:11:09 -0400 2012
+  Processing by TracksController#create as HTML
+  Parameters: {"commit"=>"Create Track", "track"=>{"name"=>"Sometimes"}, "authenticity_token"=>"oG4JTuJdKB7/abmzgLsv8Tq33Ii6EshKdSLHz8NDP2U=", "utf8"=>"\342\234\223"}
+MONGODB (10ms) fruitr_development['system.namespaces'].find({})
+MONGODB (0ms) fruitr_development['tracks'].insert([{"name"=>"Sometimes", "_id"=>BSON::ObjectId('4faaeb7d91e335bedf000002')}])
+Redirected to http://localhost:3000/tracks/4faaeb7d91e335bedf000002
+Completed 302 Found in 14ms
+
+
+Started GET "/tracks/4faaeb7d91e335bedf000002" for 127.0.0.1 at Wed May 09 18:11:09 -0400 2012
+  Processing by TracksController#show as HTML
+  Parameters: {"id"=>"4faaeb7d91e335bedf000002"}
+MONGODB (0ms) fruitr_development['system.namespaces'].find({})
+MONGODB (0ms) fruitr_development['tracks'].find({:_id=>BSON::ObjectId('4faaeb7d91e335bedf000002')}).limit(-1).sort(_idasc)
+Rendered tracks/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 9.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:11:09 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Wed May 09 18:11:09 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:11:09 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:11:09 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:11:09 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/tracks" for 127.0.0.1 at Wed May 09 18:11:10 -0400 2012
+  Processing by TracksController#index as HTML
+MONGODB (0ms) fruitr_development['system.namespaces'].find({})
+MONGODB (0ms) fruitr_development['tracks'].find({})
+Rendered tracks/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 18ms (Views: 17.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:11:10 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:11:10 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Wed May 09 18:11:10 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:11:10 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:11:10 -0400 2012
+Served asset /tracks.js - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed May 09 18:11:57 -0400 2012
+
+ArgumentError (missing :action):
+  config/routes.rb:2
+  config/routes.rb:1
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 09 18:12:43 -0400 2012
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 09 18:12:50 -0400 2012
+
+SyntaxError (/Users/roweandesign/Sites/fruitr/config/routes.rb:2: syntax error, unexpected ':', expecting kEND
+  root '/' :to => "pages/index"
+            ^):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 09 18:12:55 -0400 2012
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  config/routes.rb:2:in `root'
+  config/routes.rb:2
+  config/routes.rb:1
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 09 18:13:09 -0400 2012
+
+ArgumentError (missing :action):
+  config/routes.rb:2
+  config/routes.rb:1
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 09 18:13:14 -0400 2012
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (0.2ms)
+Compiled application.css  (2ms)  (pid 48863)
+Compiled pages.css  (44ms)  (pid 48863)
+Compiled application.js  (5ms)  (pid 48863)
+Compiled pages.js  (295ms)  (pid 48863)
+Completed 200 OK in 428ms (Views: 427.7ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Wed May 09 18:13:15 -0400 2012
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed May 09 18:13:15 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Wed May 09 18:13:15 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed May 09 18:13:15 -0400 2012
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Wed May 09 18:13:15 -0400 2012
+Served asset /pages.css - 200 OK (3ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed May 09 18:13:15 -0400 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Wed May 09 18:13:15 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Wed May 09 18:13:15 -0400 2012
+Served asset /application.css - 304 Not Modified (5ms)
+Served asset /tracks.js - 304 Not Modified (0ms)
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:13:15 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (22ms)
+Served asset /application.js - 200 OK (5ms)
+Served asset /tracks.css - 304 Not Modified (0ms)
