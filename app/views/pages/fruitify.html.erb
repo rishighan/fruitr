@@ -4,3 +4,9 @@ Welcome to Fruitr.
 	  <%= text_field "name", params[:name]  %>
   	<%end%>
 
+
+	<% @result.each do |key, val| %>
+		<% key.each do |sum|%>
+		<%= val["similarartists"]["artist"].first%>
+		<% end %>
+	<%end%>

@@ -1,2 +1,6 @@
 
 .DS_Store
+
+log/development.log
+
+log/passenger.3000.log
