@@ -5,8 +5,7 @@ Welcome to Fruitr.
   	<%end%>
 
 
-	<% @result.each do |key, val| %>
-		<% key.each do |sum|%>
-		<%= val["similarartists"]["artist"].first%>
-		<% end %>
-	<%end%>
+	<%= @result["similarartists"]["artist"][0]["name"] %><br/>
+	<%= image_tag @result["similarartists"]["artist"][0]["image"][2]["#text"] %>
+
+	

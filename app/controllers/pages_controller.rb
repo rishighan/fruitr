@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def fruitify
     parser =Yajl::Parser.new
     url = URI.parse("http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=#{params[:name]}&format=json&api_key=#{API_KEY}")
-    @result = Yajl::HttpStream.get(url)
+    @result = Yajl::HttpStream.get(url) 
     
     render :layout => 'application'
  end
