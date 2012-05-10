@@ -1,0 +1,5 @@
+USERNAME = "rishighan"
+PASSWORD = "rishi984"
+API_KEY = '38f5b5a0ff9e6238d11433dc5b4d172e'
+API_SECRET  ='2567aade6db63deb1ca8def41682bc06'
+

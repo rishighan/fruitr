@@ -6,3 +6,34 @@
   If you continue to receive this message after installing, make sure that the
   bson_ext gem is in your load path and that the bson_ext and mongo gems are of the same version.
 
+[ pid=48719 thr=2196906420 file=utils.rb:176 time=2012-05-10 13:47:50.133 ]: *** Exception SyntaxError in PhusionPassenger::Rack::ApplicationSpawner (/Users/roweandesign/Sites/fruitr/config/initializers/lastfm.rb:1: syntax error, unexpected tASSOC, expecting $end
+USERNAME => ''
+           ^) (process 48719, thread #<Thread:0x105e44368>):
+	from /Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:234:in `load'
+	from /Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:234:in `load'
+	from /Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:223:in `load_dependency'
+	from /Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:640:in `new_constants_in'
+	from /Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:223:in `load_dependency'
+	from /Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:234:in `load'
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/engine.rb:556
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/engine.rb:555:in `each'
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/engine.rb:555
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/initializable.rb:30:in `instance_exec'
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/initializable.rb:30:in `run'
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/initializable.rb:55:in `run_initializers'
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/initializable.rb:54:in `each'
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/initializable.rb:54:in `run_initializers'
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/application.rb:96:in `initialize!'
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `send'
+	from /Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /Users/roweandesign/Sites/fruitr/config/environment.rb:5
+	from config.ru:3:in `require'
+	from config.ru:3
+	from /Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/builder.rb:51:in `instance_eval'
+	from /Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/builder.rb:51:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: warning: multiple values for a block parameter (0 for 1)
+	from /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/helpers/capture_helper.rb:40
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: warning: multiple values for a block parameter (0 for 1)
+	from /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/helpers/capture_helper.rb:40

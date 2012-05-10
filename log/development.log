@@ -453,3 +453,2626 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed May 09 18:13:15
 Served asset /jquery_ujs.js - 304 Not Modified (22ms)
 Served asset /application.js - 200 OK (5ms)
 Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu May 10 09:42:12 -0400 2012
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 86ms (Views: 86.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 09:42:12 -0400 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 09:42:12 -0400 2012
+Served asset /jquery.js - 200 OK (404ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 09:42:13 -0400 2012
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 09:42:13 -0400 2012
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 09:42:13 -0400 2012
+Served asset /pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 09:42:13 -0400 2012
+Served asset /tracks.css - 200 OK (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 09:42:13 -0400 2012
+Served asset /tracks.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 09:42:13 -0400 2012
+Served asset /jquery_ujs.js - 200 OK (24ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 09:42:13 -0400 2012
+Served asset /application.js - 200 OK (0ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (116ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+Served asset /tracks.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+Served asset /pages.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+Served asset /tracks.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 13:47:47 -0400 2012
+Served asset /jquery.js - 200 OK (36ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Thu May 10 13:57:23 -0400 2012
+  Processing by PagesController#index as HTML
+Redirected to http://www.last.fm/api/auth/?api_key=38f5b5a0ff9e6238d11433dc5b4d172e
+Completed 302 Found in 0ms
+
+
+Started GET "/fruitify?token=e1f48448bd979d1f3a08d3978703d873" for 127.0.0.1 at Thu May 10 14:00:27 -0400 2012
+
+ActionController::RoutingError (No route matches [GET] "/fruitify"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/fruitify?token=e1f48448bd979d1f3a08d3978703d873" for 127.0.0.1 at Thu May 10 14:01:04 -0400 2012
+
+ActionController::RoutingError (No route matches [GET] "/fruitify"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/fruitify?token=e1f48448bd979d1f3a08d3978703d873" for 127.0.0.1 at Thu May 10 14:01:07 -0400 2012
+
+ActionController::RoutingError (No route matches [GET] "/fruitify"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/fruitify?token=e1f48448bd979d1f3a08d3978703d873" for 127.0.0.1 at Thu May 10 14:01:23 -0400 2012
+
+ActionController::RoutingError (No route matches [GET] "/fruitify"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/fruitify?token=e1f48448bd979d1f3a08d3978703d873" for 127.0.0.1 at Thu May 10 14:01:54 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"e1f48448bd979d1f3a08d3978703d873"}
+Completed 500 Internal Server Error in 12ms
+
+NoMethodError (undefined method `layout' for #<PagesController:0x107be8b80>):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.3ms)
+
+
+Started GET "/fruitify?token=e1f48448bd979d1f3a08d3978703d873" for 127.0.0.1 at Thu May 10 14:02:05 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"e1f48448bd979d1f3a08d3978703d873"}
+Rendered pages/fruitify.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 41.3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:02:05 -0400 2012
+Served asset /pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:02:05 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:02:05 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:02:05 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:02:05 -0400 2012
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:02:05 -0400 2012
+Served asset /pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:02:05 -0400 2012
+Served asset /tracks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:02:05 -0400 2012
+Served asset /tracks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:02:06 -0400 2012
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/fruitify?token=e1f48448bd979d1f3a08d3978703d873" for 127.0.0.1 at Thu May 10 14:02:35 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"e1f48448bd979d1f3a08d3978703d873"}
+Rendered text template (0.0ms)
+Completed 500 Internal Server Error in 19ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/pages_controller.rb:9:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/fruitify?token=e1f48448bd979d1f3a08d3978703d873" for 127.0.0.1 at Thu May 10 14:02:46 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"e1f48448bd979d1f3a08d3978703d873"}
+Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms)
+
+
+Started GET "/fruitify?token=e1f48448bd979d1f3a08d3978703d873" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"e1f48448bd979d1f3a08d3978703d873"}
+Rendered pages/fruitify.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 15.9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+Served asset /tracks.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:02:55 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu May 10 14:04:43 -0400 2012
+  Processing by PagesController#index as HTML
+Redirected to http://www.last.fm/api/auth/?api_key=38f5b5a0ff9e6238d11433dc5b4d172e
+Completed 302 Found in 1ms
+
+
+Started GET "/fruitify?token=23b521a8fc2cd574e2271ddd63622d8f" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"23b521a8fc2cd574e2271ddd63622d8f"}
+Rendered pages/fruitify.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 65ms (Views: 65.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+Served asset /pages.css - 200 OK (0ms)
+Served asset /application.css - 200 OK (0ms)
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+Served asset /tracks.css - 200 OK (2ms)
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+Served asset /pages.js - 200 OK (1ms)
+Served asset /tracks.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:04:55 -0400 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/fruitify?token=23b521a8fc2cd574e2271ddd63622d8f" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"23b521a8fc2cd574e2271ddd63622d8f"}
+Rendered pages/fruitify.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 98ms (Views: 97.9ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:05:52 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (26ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu May 10 14:06:09 -0400 2012
+  Processing by PagesController#index as HTML
+Redirected to http://www.last.fm/api/auth/?api_key=38f5b5a0ff9e6238d11433dc5b4d172e
+Completed 302 Found in 0ms
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 63ms (Views: 63.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+Served asset /application.css - 200 OK (0ms)
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+Served asset /pages.css - 200 OK (3ms)
+Served asset /jquery_ujs.js - 200 OK (1ms)
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+Served asset /tracks.css - 200 OK (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+Served asset /pages.js - 200 OK (0ms)
+Served asset /tracks.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:06:20 -0400 2012
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:06:39 -0400 2012
+
+SyntaxError (/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:8: syntax error, unexpected tASSOC, expecting kEND
+    :notice=> "asdas"
+             ^
+/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:11: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:06:43 -0400 2012
+
+SyntaxError (/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:8: syntax error, unexpected tASSOC, expecting kEND
+    :notice => "asdas"
+              ^
+/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:11: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:06:53 -0400 2012
+
+SyntaxError (/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:11: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.7ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 19.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+Served asset /application.css - 304 Not Modified (1ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:07:03 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /tracks.js - 304 Not Modified (1ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:07:10 -0400 2012
+
+SyntaxError (/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:8: syntax error, unexpected tASSOC, expecting kEND
+    :notice => "asdas"
+              ^):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 8.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (29ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /tracks.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:07:16 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /tracks.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:07:26 -0400 2012
+Served asset /pages.js - 304 Not Modified (1ms)
+Served asset /tracks.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.5ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (1ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:10:08 -0400 2012
+Served asset /tracks.js - 304 Not Modified (1ms)
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:16:33 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+ERROR: compiling _app_views_pages_fruitify_html_erb__1155914185_2210930600 RAISED compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting kEND
+'); input :id="artist", :placeholder=>"Enter ...
+               ^
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected ',', expecting kEND
+'); input :id="artist", :placeholder=>"Enter Artist n...
+                       ^
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected ',', expecting kEND
+...ceholder=>"Enter Artist name", :size=>20;@output_buffer.to_s
+                              ^
+Function body:           def _app_views_pages_fruitify_html_erb__1155914185_2210930600(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "pages/fruitify";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('Welcome to Fruitr.
+
+'); input :id="artist", :placeholder=>"Enter Artist name", :size=>20;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:6:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:10:in `fruitify'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:416:in `_run__1779690561__process_action__1668007762__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/mongoid.rb:133:in `unit_of_work'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `send'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `send'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/helper-scripts/passenger-spawn-server:99
+Rendered pages/fruitify.html.erb within layouts/application (77.0ms)
+Completed 500 Internal Server Error in 85ms
+
+ActionView::Template::Error (compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting kEND
+'); input :id="artist", :placeholder=>"Enter ...
+               ^
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected ',', expecting kEND
+'); input :id="artist", :placeholder=>"Enter Artist n...
+                       ^
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected ',', expecting kEND
+...ceholder=>"Enter Artist name", :size=>20;@output_buffer.to_s
+                              ^):
+    1: Welcome to Fruitr.
+    2: 
+    3: <% input :id="artist", :placeholder=>"Enter Artist name", :size=>20%>
+  app/views/pages/fruitify.html.erb:6:in `compile'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (41.6ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:16:39 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (63.9ms)
+Completed 500 Internal Server Error in 68ms
+
+ActionView::Template::Error (undefined method `input' for #<#<Class:0x107524b00>:0x107517cc0>):
+    1: Welcome to Fruitr.
+    2: 
+    3: <% input :id=>"artist", :placeholder=>"Enter Artist name", :size=>20%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2208862560'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:16:43 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (18.0ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `input_tag' for #<#<Class:0x10784d570>:0x107848ea8>):
+    1: Welcome to Fruitr.
+    2: 
+    3: <% input_tag :id=>"artist", :placeholder=>"Enter Artist name", :size=>20%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2210544340'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:16:48 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (17.9ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `text_tag' for #<#<Class:0x107b7b850>:0x107b6d228>):
+    1: Welcome to Fruitr.
+    2: 
+    3: <% text_tag :id=>"artist", :placeholder=>"Enter Artist name", :size=>20%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2212186500'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:16:56 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (51.1ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (undefined method `input' for #<#<Class:0x107609d68>:0x1075ff368>):
+    1: Welcome to Fruitr.
+    2: 
+    3: <%=input :id=>"artist", :placeholder=>"Enter Artist name", :size=>20%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2209345120'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:17:44 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (48.7ms)
+Completed 500 Internal Server Error in 53ms
+
+ActionView::Template::Error (undefined method `text_tag' for #<#<Class:0x1077f9ab0>:0x1077f4970>):
+    1: Welcome to Fruitr.
+    2: 
+    3: <%= text_tag "something", :placeholder=>"Enter Artist name", :size=>20%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2210361220'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.5ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:17:54 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `input_tag' for #<#<Class:0x10784ad98>:0x107844bc8>):
+    1: Welcome to Fruitr.
+    2: 
+    3: <%= input_tag "something", :placeholder=>"Enter Artist name", :size=>20%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2210535260'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 63ms (Views: 62.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (127ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+Served asset /tracks.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:18:16 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:18:29 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: <%= text_field  :id=>"artist_name", :placeholder=>"Enter Artist name", :size=>20%>
+  app/views/pages/fruitify.html.erb:3:in `text_field'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2208557360'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:18:36 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 514ms (Views: 514.1ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:18:37 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:18:37 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:18:37 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:18:37 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:18:37 -0400 2012
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:18:37 -0400 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:18:37 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:18:37 -0400 2012
+Served asset /jquery.js - 304 Not Modified (2ms)
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:18:37 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 26.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /tracks.css - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+Served asset /tracks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:18:43 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:18:55 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+ERROR: compiling _app_views_pages_fruitify_html_erb__1155914185_2208539880 RAISED compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected ':', expecting ')'
+... ( text_field  "artist_name" :placeholder_text=>"Enter Artis...
+                              ^
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected ',', expecting ')'
+...der_text=>"Enter Artist name", :size=>20);@output_buffer.saf...
+                              ^
+Function body:           def _app_views_pages_fruitify_html_erb__1155914185_2208539880(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "pages/fruitify";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('Welcome to Fruitr.
+
+');@output_buffer.append= ( text_field  "artist_name" :placeholder_text=>"Enter Artist name", :size=>20);@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:7:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:10:in `fruitify'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:416:in `_run__1779690561__process_action__1668007762__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/mongoid.rb:133:in `unit_of_work'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `send'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `send'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/helper-scripts/passenger-spawn-server:99
+Rendered pages/fruitify.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected ':', expecting ')'
+... ( text_field  "artist_name" :placeholder_text=>"Enter Artis...
+                              ^
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:3: syntax error, unexpected ',', expecting ')'
+...der_text=>"Enter Artist name", :size=>20);@output_buffer.saf...
+                              ^):
+    1: Welcome to Fruitr.
+    2: 
+    3: <%= text_field  "artist_name" :placeholder_text=>"Enter Artist name", :size=>20%>
+  app/views/pages/fruitify.html.erb:7:in `compile'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:19:06 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 19.0ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:19:23 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: <%= text_field  "artist_name"%>
+  app/views/pages/fruitify.html.erb:3:in `text_field'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2211060820'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.5ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:19:30 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: <%= text_field  "artist_name"%>
+  app/views/pages/fruitify.html.erb:3:in `text_field'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2211060820'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 47.1ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+Served asset /pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /tracks.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:19:37 -0400 2012
+Served asset /tracks.js - 304 Not Modified (1ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:20:01 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: <%= text_field  :artist_name%>
+  app/views/pages/fruitify.html.erb:3:in `text_field'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2208531560'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:20:11 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: <%= text_field :name%>
+  app/views/pages/fruitify.html.erb:3:in `text_field'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2212664200'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:20:41 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: Welcome to Fruitr.
+    2: 
+    3: <% form_for @track do |f| -%>
+    4:   <%= f.text_field :name, :size=>30%>
+    5: <% end -%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2210694080'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:20:45 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: Welcome to Fruitr.
+    2: 
+    3: <% form_for @track do |f| -%>
+    4:   <%= f.text_field :name%>
+    5: <% end -%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2208915280'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:20:49 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: Welcome to Fruitr.
+    2: 
+    3: <% form_for @track do |f| -%>
+    4:   <%= f.text_field :name %>
+    5: <% end -%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2208097180'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.8ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:21:10 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: Welcome to Fruitr.
+    2: 
+    3: <% form_for @track do |f| -%>
+    4:   <%= f.text_field :name %>
+    5: <% end -%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2208097180'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:21:29 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: Welcome to Fruitr.
+    2: 
+    3: <% form_for(@track) do |f| -%>
+    4:   <%= f.text_field :name %>
+    5: <% end -%>
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2209830220'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:22:13 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (55.1ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x10744de98>:0x107449af0>):
+    1: Welcome to Fruitr.
+    2: 
+    3: 
+    4:   <%= f.text_field "name" %>
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2208449060'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.5ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:22:20 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: 
+    4:   <%= text_field "name" %>
+  app/views/pages/fruitify.html.erb:4:in `text_field'
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2210400220'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:23:40 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 54ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: 
+    4:   <%= text_field "name" %>
+  app/views/pages/fruitify.html.erb:4:in `text_field'
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2210400220'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (49.7ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:24:14 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (20.4ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined local variable or method `name' for #<#<Class:0x107acabb8>:0x107ac57a8>):
+    1: Welcome to Fruitr.
+    2: 
+    3: 	<% form_tag fruitify_path, :method=>:get do |f| -%>
+    4: 	  <%= f.text_field name  %>
+    5: 	<% end -%>
+    6:   
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2211847840'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2211847840'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:24:20 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `text_field' for nil:NilClass):
+    1: Welcome to Fruitr.
+    2: 
+    3: 	<% form_tag fruitify_path, :method=>:get do |f| -%>
+    4: 	  <%= f.text_field "name"  %>
+    5: 	<% end -%>
+    6:   
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2209245060'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2209245060'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:25:40 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+ERROR: compiling _app_views_pages_fruitify_html_erb__1155914185_2211439240 RAISED compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:9: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _app_views_pages_fruitify_html_erb__1155914185_2211439240(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "pages/fruitify";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('Welcome to Fruitr.
+
+');	 form_tag fruitify_path, :method=>:get  
+@output_buffer.safe_concat('	  ');@output_buffer.append= ( text_field "name"  );@output_buffer.safe_concat('
+');	 end 
+@output_buffer.safe_concat('  
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:9:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:10:in `fruitify'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:416:in `_run__1779690561__process_action__1668007762__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/mongoid.rb:133:in `unit_of_work'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `send'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `send'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/helper-scripts/passenger-spawn-server:99
+Rendered pages/fruitify.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:9: syntax error, unexpected kENSURE, expecting $end):
+    6:   
+  app/views/pages/fruitify.html.erb:9:in `compile'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:25:59 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: 	<% form_tag fruitify_path, :method=>:get  -%>
+    4: 	  <%= text_field "name"  %>
+    5: 
+    6:   
+  app/views/pages/fruitify.html.erb:4:in `text_field'
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2209488400'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:26:20 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+ERROR: compiling _app_views_pages_fruitify_html_erb__1155914185_2208315900 RAISED compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:8: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _app_views_pages_fruitify_html_erb__1155914185_2208315900(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "pages/fruitify";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('Welcome to Fruitr.
+
+	');@output_buffer.append= ( form_tag fruitify_path, :method=>:get  );@output_buffer.safe_concat('	  ');@output_buffer.append= ( text_field "name"  );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+');  	end
+@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:8:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:10:in `fruitify'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:416:in `_run__1779690561__process_action__1668007762__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/mongoid.rb:133:in `unit_of_work'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `send'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `send'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/helper-scripts/passenger-spawn-server:99
+Rendered pages/fruitify.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:8: syntax error, unexpected kENSURE, expecting $end):
+    5: 
+    6:   	<%end%>
+  app/views/pages/fruitify.html.erb:8:in `compile'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:26:27 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+ERROR: compiling _app_views_pages_fruitify_html_erb__1155914185_2212131160 RAISED compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:9: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _app_views_pages_fruitify_html_erb__1155914185_2212131160(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "pages/fruitify";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('Welcome to Fruitr.
+
+	');@output_buffer.append= ( form_tag fruitify_path, :method=>:get  );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	  ');@output_buffer.append= ( text_field "name"  );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+');  	end
+@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:9:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/roweandesign/Sites/fruitr/app/controllers/pages_controller.rb:10:in `fruitify'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:416:in `_run__1779690561__process_action__1668007762__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/mongoid.rb:133:in `unit_of_work'
+/Library/Ruby/Gems/1.8/gems/mongoid-2.4.9/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `send'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `send'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+/Users/roweandesign/.passenger/standalone/3.0.11-universal-ruby1.8.7-x86_64-macosx-10.7/support/helper-scripts/passenger-spawn-server:99
+Rendered pages/fruitify.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (compile error
+/Users/roweandesign/Sites/fruitr/app/views/pages/fruitify.html.erb:9: syntax error, unexpected kENSURE, expecting $end):
+    6:   	<%end%>
+  app/views/pages/fruitify.html.erb:9:in `compile'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:27:00 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: 	<%= form_tag fruitify_path, :method=>:get do  %>
+    4: 	  <%= text_field "name"  %>
+    5: 
+    6:   	<%end%>
+  app/views/pages/fruitify.html.erb:4:in `text_field'
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2210307560'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2210307560'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:27:03 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: 	<%= form_tag fruitify_path, :method=>:get do  %>
+    4: 	  <%= text_field "name"  %>
+    5: 
+    6:   	<%end%>
+  app/views/pages/fruitify.html.erb:4:in `text_field'
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2210307560'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2210307560'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.6ms)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:33:20 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 136ms (Views: 135.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:33:21 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:33:21 -0400 2012
+Served asset /pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:33:21 -0400 2012
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:33:21 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:33:21 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:33:21 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:33:21 -0400 2012
+Served asset /tracks.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:33:21 -0400 2012
+Served asset /tracks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:33:21 -0400 2012
+Served asset /pages.js - 304 Not Modified (1ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/fruitify?token=fb101c81480822110a9c766e020e98a3" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"fb101c81480822110a9c766e020e98a3"}
+Rendered pages/fruitify.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 29ms (Views: 29.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:34:14 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fruitify?utf8=%E2%9C%93&%5Bname%5D=muse" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"name"=>"muse", "utf8"=>"\342\234\223"}
+Rendered pages/fruitify.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 27ms (Views: 26.7ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /tracks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (2ms)
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:34:17 -0400 2012
+Served asset /tracks.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fruitify?utf8=%E2%9C%93&muse%5Bname%5D=muse" for 127.0.0.1 at Thu May 10 14:35:04 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"muse"=>{"name"=>"muse"}, "utf8"=>"\342\234\223"}
+Completed 500 Internal Server Error in 559ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/fruitify?utf8=%E2%9C%93&muse%5Bname%5D=muse" for 127.0.0.1 at Thu May 10 14:47:07 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"muse"=>{"name"=>"muse"}, "utf8"=>"\342\234\223"}
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (75.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (99.7ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:47:20 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu May 10 14:47:27 -0400 2012
+  Processing by PagesController#index as HTML
+Redirected to http://www.last.fm/api/auth/?api_key=38f5b5a0ff9e6238d11433dc5b4d172e
+Completed 302 Found in 0ms
+
+
+Started GET "/fruitify?token=7c2461bba862432ff9e200acf37b0f4f" for 127.0.0.1 at Thu May 10 14:47:34 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"7c2461bba862432ff9e200acf37b0f4f"}
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (18.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu May 10 14:47:48 -0400 2012
+  Processing by PagesController#index as HTML
+Redirected to http://www.last.fm/api/auth/?api_key=38f5b5a0ff9e6238d11433dc5b4d172e
+Completed 302 Found in 0ms
+
+
+Started GET "/fruitify?token=b169654c1f363161579883e4de13345e" for 127.0.0.1 at Thu May 10 14:48:01 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"token"=>"b169654c1f363161579883e4de13345e"}
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:48:21 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:48:36 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.3ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:49:01 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Rendered pages/fruitify.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 111ms (Views: 110.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:49:02 -0400 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:49:02 -0400 2012
+Served asset /pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:49:02 -0400 2012
+Served asset /jquery.js - 200 OK (34ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:49:02 -0400 2012
+Served asset /tracks.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:49:02 -0400 2012
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:49:02 -0400 2012
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:49:02 -0400 2012
+Served asset /jquery_ujs.js - 200 OK (93ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:49:02 -0400 2012
+Served asset /tracks.js - 200 OK (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:49:02 -0400 2012
+Served asset /application.js - 200 OK (0ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/fruitify?utf8=%E2%9C%93&%5Bname%5D=muse" for 127.0.0.1 at Thu May 10 14:49:38 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"name"=>"muse", "utf8"=>"\342\234\223"}
+Completed 500 Internal Server Error in 23ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=muse&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:9:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (41.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.2ms)
+
+
+Started GET "/fruitify?utf8=%E2%9C%93&%5Bname%5D=muse" for 127.0.0.1 at Thu May 10 14:50:09 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"name"=>"muse", "utf8"=>"\342\234\223"}
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=muse&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:9:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.3ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:50:13 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:9:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:51:06 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:9:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.2ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:52:42 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Rendered pages/fruitify.html.erb within layouts/application (23.6ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (can't convert Symbol into String):
+    1: Welcome to Fruitr.
+    2: 
+    3: 	<%= form_tag fruitify_path, :method=>:get do  %>
+    4: 	  <%= text_field :name, params[:name], "name"  %>
+    5:   	<%end%>
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2207837900'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2207837900'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (40.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (43.2ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Rendered pages/fruitify.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 19.3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /tracks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:53:18 -0400 2012
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/fruitify?utf8=%E2%9C%93&name%5B%5D=muse" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"name"=>["muse"], "utf8"=>"\342\234\223"}
+Rendered pages/fruitify.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 66ms (Views: 65.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+Served asset /pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:53:26 -0400 2012
+Served asset /tracks.js - 304 Not Modified (2ms)
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fruitify?utf8=%E2%9C%93&name%5Bmuse%5D=muse" for 127.0.0.1 at Thu May 10 14:53:54 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"name"=>{"muse"=>"muse"}, "utf8"=>"\342\234\223"}
+Completed 500 Internal Server Error in 3ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=musemuse&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (42.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.1ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:55:16 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Completed 500 Internal Server Error in 0ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:55:23 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Rendered pages/fruitify.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    1: Welcome to Fruitr.
+    2: 
+    3: 	<%= form_tag fruitify_path, :method=>:get do  %>
+    4: 	  <%= text_field params[:name]  %>
+    5:   	<%end%>
+  app/views/pages/fruitify.html.erb:4:in `text_field'
+  app/views/pages/fruitify.html.erb:4:in `_app_views_pages_fruitify_html_erb__1155914185_2210267620'
+  app/views/pages/fruitify.html.erb:3:in `_app_views_pages_fruitify_html_erb__1155914185_2210267620'
+  app/controllers/pages_controller.rb:10:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/fruitify" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+  Processing by PagesController#fruitify as HTML
+Rendered pages/fruitify.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 20.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:55:36 -0400 2012
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /tracks.js - 304 Not Modified (0ms)
+Served asset /pages.js - 304 Not Modified (44ms)
+
+
+Started GET "/fruitify?utf8=%E2%9C%93&name%5B%5D=muse" for 127.0.0.1 at Thu May 10 14:55:41 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"name"=>["muse"], "utf8"=>"\342\234\223"}
+Rendered pages/fruitify.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu May 10 14:55:42 -0400 2012
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu May 10 14:55:42 -0400 2012
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu May 10 14:55:42 -0400 2012
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at Thu May 10 14:55:42 -0400 2012
+Served asset /tracks.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu May 10 14:55:42 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Thu May 10 14:55:42 -0400 2012
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu May 10 14:55:42 -0400 2012
+Served asset /pages.js - 304 Not Modified (1ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at Thu May 10 14:55:42 -0400 2012
+Served asset /tracks.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Thu May 10 14:55:42 -0400 2012
+Served asset /pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/fruitify?utf8=%E2%9C%93&name%5B%5D=muse" for 127.0.0.1 at Thu May 10 14:55:48 -0400 2012
+  Processing by PagesController#fruitify as HTML
+  Parameters: {"name"=>["muse"], "utf8"=>"\342\234\223"}
+Completed 500 Internal Server Error in 15ms
+
+MultiJson::DecodeError (757: unexpected token at 'http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=muse&format=json&api_key=38f5b5a0ff9e6238d11433dc5b4d172e'):
+  app/controllers/pages_controller.rb:8:in `fruitify'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.3ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
