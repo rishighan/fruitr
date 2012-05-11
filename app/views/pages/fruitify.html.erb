@@ -1,11 +1,21 @@
 Welcome to Fruitr.
 
 	<%= form_tag fruitify_path, :method=>:get do  %>
-	  <%= text_field "name", params[:name]  %>
-  	<%end%>
-	
+	  <%= text_field_tag :username, params[:username]  %>
 
-	<% @result["similarartists"]["artist"].each do |listing|%>
-		<%=image_tag listing["image"][2]["#text"]%>
-	<%end%>
+  	<%end%>
+
+	<% unless @result.nil? %>
+		<% @result["similarartists"]["artist"].each do |res|%>
+			<%= image_tag res["image"][2]["#text"] %><br/>
+			<%= res["name"]%><br/>
+		<%end%>
+  	<%end%>
+
+	<% unless @lovedtracks.nil? %>
+		<% @lovedtracks["lovedtracks"]["track"].each do |track|%>
+			<%= track["name"] %><br/>
+			<%= track["artist"]["name"]%><br/>
+		<%end%>
+  	<%end%>
 	

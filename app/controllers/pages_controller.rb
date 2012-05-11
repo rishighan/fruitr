@@ -1,24 +1,26 @@
 class PagesController < ApplicationController
   require 'yajl/http_stream'
-  before_filter :set_artist
+  
   def index
     redirect_to "http://www.last.fm/api/auth/?api_key=#{API_KEY}"
     
   end
   
   def fruitify
-    
-    begin
+    unless params[:name].blank?
       url = URI.parse("http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&artist=#{params[:name]}&format=json&api_key=#{API_KEY}")
       @result = Yajl::HttpStream.get(url)
-    rescue NoMethodError
-      
-    end  
-    render :layout => 'application'
- end
+    end
+  render :layout => 'application' 
+  end
 
- def set_artist
-   
+  def getloved
+    unless params[:username].blank?
+      url = URI.parse("http://ws.audioscrobbler.com/2.0/?method=user.getlovedtracks&user=#{params[:username]}&format=json&api_key=#{API_KEY}")
+      @lovedtracks = Yajl::HttpStream.get(url)
+    end
+    render :fruitify
+  end
   
- end
+  
 end
