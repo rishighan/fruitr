@@ -3,9 +3,9 @@ Welcome to Fruitr.
 	<%= form_tag fruitify_path, :method=>:get do  %>
 	  <%= text_field "name", params[:name]  %>
   	<%end%>
+	
 
-
-	<%= @result["similarartists"]["artist"][0]["name"] %><br/>
-	<%= image_tag @result["similarartists"]["artist"][0]["image"][2]["#text"] %>
-
+	<% @result["similarartists"]["artist"].each do |listing|%>
+		<%=image_tag listing["image"][2]["#text"]%>
+	<%end%>
 	

@@ -4,3 +4,5 @@
 log/development.log
 
 log/passenger.3000.log
+
+tmp/pids/passenger.3000.pid
