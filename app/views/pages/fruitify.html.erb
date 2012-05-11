@@ -11,25 +11,18 @@
 </div>	
 
 <ul class="artists well span5 offset4">
+	<% unless @hot.nil? %>
+	  
+	 <%= @hot["response"]["artist"]["name"]%> :
+	 <%= @hot["response"]["artist"]["hotttnesss"]%>
 	
-	<% unless @result.nil? %>
-	 	
-		<% @result["similarartists"]["artist"].each do |res|%>
-			<li>
-			<%= image_tag res["image"][4]["#text"] %><br/>
-			<%= res["name"]%><br/>
-			</li>
-		<%end%>
-
+	 
+	
   	<%end%>
+	
+
 </ul>
 
-	<% unless @lovedtracks.nil? %>
-		<% @lovedtracks["lovedtracks"]["track"].each do |track|%>
-			<%= track["name"] %> - 
-			<%= track["artist"]["name"]%><br/>
-		<%end%>
-  	<%end%>
- 
+	
 
 </div>	
