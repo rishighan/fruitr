@@ -12,6 +12,7 @@ class PagesController < ApplicationController
     unless params[:name].blank?
       #@result = similarArtists URI::escape(params[:name])
         @hot = hotness URI::escape(params[:name])
+        @bio = biography URI::escape(params[:name])
     end
   render :layout => 'application' 
   end

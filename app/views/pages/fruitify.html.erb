@@ -4,7 +4,7 @@
 
 		<%= form_tag fruitify_path, :class=> "search", :method=>:get do  %>
 		  <%= text_field_tag :name, params[:name]  %>
-			<%= submit_tag "Search", :class=>"btn btn-primary"%>
+			<%= submit_tag "Search", :class=>"btn btn-primary", :name=>nil %>
 
 	  	<%end%>
 
@@ -15,7 +15,9 @@
 	  
 	 <%= @hot["response"]["artist"]["name"]%> :
 	 <%= @hot["response"]["artist"]["hotttnesss"]%>
-	
+	 <p>
+	 <%= @bio["response"]["biographies"][0]["text"]%>
+	</p>
 	 
 	
   	<%end%>
