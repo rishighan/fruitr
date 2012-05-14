@@ -10,11 +10,10 @@ class PagesController < ApplicationController
   
   def fruitify
     unless params[:name].blank?
-      #declare array
-      @artists = Hash.new
+      # why did I just declare a hash, what the fuck was I thinking?
       @similar = similar URI::escape(params[:name])
       @similar["response"]["artists"].each do |artist|
-        @artists =  {artist["name"] => hotness(URI::escape(artist["name"])) }
+        @artists = {artist["name"] => hotness(URI::escape(artist["name"]))}  
       end
   
     end

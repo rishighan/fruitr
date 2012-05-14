@@ -1,12 +1,7 @@
 <div class="row">
 <script type="text/javascript" charset="utf-8">
 	var chart1;
-	
-	$.function()
-	{	
-		alert("hi!");
 
-	}
 </script>
 <div class="hero well span5 offset4">
 	<h3>Welcome to Fruitr</h3>
@@ -26,9 +21,11 @@
 
 <ul class="artists well span5 offset4">
 		<%unless @similar.nil? %>
-		<p>Similar artists:</p>
+		
+		<p>Similar artists: <%= @similar.length%></p>
 		 <% @artists.each do |ar|%>
 			<%= ar %> <br/>
+			<%= @artists.length%>
 		<%end%>
 		<%end%>
 
