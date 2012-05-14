@@ -10,9 +10,15 @@ class PagesController < ApplicationController
   
   def fruitify
     unless params[:name].blank?
-      @hotness = hotness URI::escape(params[:name])
+      #declare array
+      @artists = Hash.new
+      @similar = similar URI::escape(params[:name])
+      @similar["response"]["artists"].each do |artist|
+        @artists =  {artist["name"] => hotness(URI::escape(artist["name"])) }
+      end
+  
     end
-  render :layout => 'application' 
+    render :layout => 'application' 
   end
 
   def getloved

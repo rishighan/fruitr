@@ -3,6 +3,7 @@ ECHONEST_API_SHARED_SECRET =  "gPcisMekQEOC1Ux4sSB+JA"
 ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
 
 # Rishi Ghan
+# rishighan.com
 # some basic ECHONEST API hooks
 # Please give credit if you are using this.
 
