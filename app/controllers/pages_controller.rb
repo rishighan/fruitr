@@ -10,8 +10,7 @@ class PagesController < ApplicationController
   
   def fruitify
     unless params[:name].blank?
-      #@result = similarArtists URI::escape(params[:name])
-       @similar = similar params[:name]
+      @hotness = hotness URI::escape(params[:name])
     end
   render :layout => 'application' 
   end

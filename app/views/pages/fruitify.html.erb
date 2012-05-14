@@ -2,13 +2,13 @@
 <script type="text/javascript" charset="utf-8">
 	
 </script>
-<div class="hero well span7 offset4">
+<div class="hero well span5 offset4">
 	<h3>Welcome to Fruitr</h3>
-
-		<%= form_tag fruitify_path, :class=> "search", :method=>:get do  %>
+		<br/><br/>
+		<%= form_tag fruitify_path, :class=> "form-search", :method=>:get do  %>
 		<%=label :name, "Artist"%>  
-		<%= text_field_tag :name, params[:name]  %>
-			
+		<%= text_field_tag :name, params[:name], :class=>"input-medium search-query" %>
+		
 
 		<%= submit_tag "Search", :class=>"btn btn-primary", :name=>nil %>
 
@@ -16,18 +16,12 @@
 
 </div>	
 
-<div id="echochart" class="span7 offset4"></div>
+<div id="echochart" class="span5 offset4"></div>
 
-<ul class="artists well span7 offset4">
-	<% unless @similar.nil? %>
-	 
-	 <% @similar["response"]["artists"].each do |artist|%>
-		<%= artist["name"] %><br/>
-	 <%end%>
-	 
-	
-  	<%end%>
-	
+<ul class="artists well span5 offset4">
+
+		<%= @hotness%><br/>
+
 
 </ul>
 
