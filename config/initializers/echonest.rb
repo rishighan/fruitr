@@ -17,23 +17,25 @@ end
 #retrieves hotness ratings for an artist
 def hotness artist
   url = "http://developer.echonest.com/api/v4/artist/hotttnesss?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json"
-  parseURL url
-  result = json["response"]["artist"]["hotttnesss"]
+  result = parseURL url
+  result["response"]["artist"]["hotttnesss"]
 end
 
 # retrieves familiarity for an artist
 # Get our numerical estimation of how familiar an artist currently is to the world.
 # todo:  limit results
 def familiarity artist
-  url = URI.parse("http://developer.echonest.com/api/v4/artist/familiarity?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json")
-  result = Yajl::HttpStream.get(url)
+  url = "http://developer.echonest.com/api/v4/artist/familiarity?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json"
+  result = parseURL url
+  result["response"]["artist"]["familiarity"]
+  
 end
 
 # retrieves all available biographies for an artist
 # todo:  limit results
 def biography artist
   url = URI.parse("http://developer.echonest.com/api/v4/artist/biographies?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json")
-  result = Yajl::HttpStream.get(url)
+  
 end
 
 # Return similar artists given one or more artists for comparison. 
@@ -41,13 +43,14 @@ end
 # real-time musical and cultural analysis of what people are saying across the Internet and what 
 # the music sounds like.
 def similar artist
-  url = URI.parse("http://developer.echonest.com/api/v4/artist/similar?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json&start=0")
+  url = "http://developer.echonest.com/api/v4/artist/similar?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json&start=0"
   parseURL url
+  #also get their hotness?
 end
 
 
 # Get a list of most descriptive terms for an artist
 def terms artist
   url = URI.parse("http://developer.echonest.com/api/v4/artist/terms?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json")
-  result = Yajl::HttpStream.get(url)
+  
 end

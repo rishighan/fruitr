@@ -19,10 +19,14 @@
 <div id="echochart" class="span5 offset4"></div>
 
 <ul class="artists well span5 offset4">
-		<%unless @hotness.nil? %>
+		<%unless @similar.nil? %>
 		
-		 <%= @hotness %>
-			 <br/>
+		 <% @similar["response"]["artists"].each do |artist|%>
+			<h4><%= artist["name"]%> </h4> 
+			Hotness: <%= hotness URI::escape(artist["name"])%>
+			Familiarity: <%= familiarity URI::escape(artist["name"])%> 
+			<br/> 
+		 <%end%>
 		<%end%>
 
 </ul>
