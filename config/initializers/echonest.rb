@@ -7,7 +7,7 @@ ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
 # some basic ECHONEST API hooks
 # Please give credit if you are using this.
 
-# From Wikipedia
+# From Wikipedia:
 
 # In statistics, dependence refers to any statistical relationship between two random variables or two sets of data. 
 # Correlation refers to any of a broad class of statistical relationships involving dependence.
@@ -41,14 +41,12 @@ def familiarity artist
   url = "http://developer.echonest.com/api/v4/artist/familiarity?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json"
   result = parseURL url
   result["response"]["artist"]["familiarity"]
-  
 end
 
 # retrieves all available biographies for an artist
 # todo:  limit results
 def biography artist
-  url = URI.parse("http://developer.echonest.com/api/v4/artist/biographies?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json")
-  
+  url = "http://developer.echonest.com/api/v4/artist/biographies?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json"
 end
 
 # Return similar artists given one or more artists for comparison. 
