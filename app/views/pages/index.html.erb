@@ -1,2 +1,32 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<div class="row">
+<script type="text/javascript" charset="utf-8">
+	var chart1;
+
+</script>
+<div class="hero well span5 offset4">
+	<h3>Welcome to Fruitr</h3>
+		<br/><br/>
+		<%= form_tag '/', :class=> "form-search", :method=>:get do  %>
+		<%=label :name, "Artist"%>  
+		<%= text_field_tag :name, params[:name], :class=>"input-medium search-query" %>
+		
+		<%= submit_tag "Search", :class=>"btn btn-primary", :name=>nil %>
+
+	  	<%end%>
+
+</div>	
+
+<div id="echochart" class="span5 offset4"></div>
+
+<ul class="artists well span5 offset4">
+		<%unless @hotness.nil? %>
+		
+		 <%= @hotness %>
+			 <br/>
+		<%end%>
+
+</ul>
+
+	
+
+</div>

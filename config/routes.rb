@@ -4,7 +4,7 @@ Fruitr::Application.routes.draw do
   resources :tracks
   get '/tracks' => "tracks#index"
   
-  get '/fruitify' => 'pages#fruitify', :as=> :fruitify
+ 
   #get '/fruitify' => 'pages#getloved', :as=> :fruitify
   # The priority is based upon order of creation:
   # first created -> highest priority.

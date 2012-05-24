@@ -7,10 +7,17 @@ ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
 # some basic ECHONEST API hooks
 # Please give credit if you are using this.
 
+
+def parseURL url
+  purl = URI.parse(url) # parse the URL 
+  response = Net::HTTP.get_response(purl)
+  json = JSON.parse(response.body)
+end
+
 #retrieves hotness ratings for an artist
 def hotness artist
-  url = URI.parse("http://developer.echonest.com/api/v4/artist/hotttnesss?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json")
-  json = Yajl::HttpStream.get(url)
+  url = "http://developer.echonest.com/api/v4/artist/hotttnesss?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json"
+  parseURL url
   result = json["response"]["artist"]["hotttnesss"]
 end
 
@@ -35,7 +42,7 @@ end
 # the music sounds like.
 def similar artist
   url = URI.parse("http://developer.echonest.com/api/v4/artist/similar?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json&start=0")
-  result = Yajl::HttpStream.get(url)
+  parseURL url
 end
 
 

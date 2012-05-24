@@ -10,7 +10,7 @@ gem "bson_ext", "~> 1.5"
 
 gem 'json'
 gem 'nokogiri'
-gem 'yajl-ruby'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
