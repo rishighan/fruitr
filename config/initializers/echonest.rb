@@ -7,6 +7,19 @@ ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
 # some basic ECHONEST API hooks
 # Please give credit if you are using this.
 
+# From Wikipedia
+
+# In statistics, dependence refers to any statistical relationship between two random variables or two sets of data. 
+# Correlation refers to any of a broad class of statistical relationships involving dependence.
+
+# Formally, dependence refers to any situation in which random variables do not satisfy a mathematical 
+# condition of probabilistic independence. In loose usage, correlation can refer to any departure of two or
+# more random variables from independence, but technically it refers to any of several more specialized types 
+# of relationship between mean values. There are several correlation coefficients, often denoted ρ or r, measuring 
+# the degree of correlation. The most common of these is the Pearson correlation coefficient, which is sensitive only
+# to a linear relationship between two variables (which may exist even if one is a nonlinear function of the other). 
+# Other correlation coefficients have been developed to be more robust than the Pearson correlation – that is,
+# more sensitive to nonlinear relationships.
 
 def parseURL url
   purl = URI.parse(url) # parse the URL 
