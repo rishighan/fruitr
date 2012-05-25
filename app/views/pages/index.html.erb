@@ -34,7 +34,30 @@
 			</tr>
 				
 		<%end%>
-		
+		    <thead>
+			<th> X,Y Values</th>
+			<th> <% @similar["response"]["artists"].each do |artist|%>
+					<% @hotArray << (hotness URI::escape(artist["name"])) %>
+				 <%end%>
+				<%=	@hotArray.reduce(:+)%> 	
+			</th>
+			
+			<th> <% @similar["response"]["artists"].each do |artist|%>
+					<% @famArray << (familiarity URI::escape(artist["name"])) %>
+				 <%end%>
+				<%=	@famArray.reduce(:+)%> 	
+			</th>
+				
+			</thead>
+			
+			<thead>
+				<th>
+				   X*Y	
+				</th>
+				<th>
+					<%= arrayMultiply @hotArray, @famArray  %>
+				</th>	
+			</thead>
 		</table>
 		
 		

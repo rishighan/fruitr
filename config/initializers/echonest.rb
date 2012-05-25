@@ -27,9 +27,11 @@ ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
 #  If the correlation is positive, we have a positive relationship. 
 #  If it is negative, the relationship is negative.
 
-def correlate hotness, familiarity
-  
+# Matrix multiplication
+def arrayMultiply arr1, arr2
+  (0...arr1.length).inject(0) {|c,i| c + arr1[i]*arr2[i]}
 end
+
 
 def parseURL url
   purl = URI.parse(url) # parse the URL 
