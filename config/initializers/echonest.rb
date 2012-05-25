@@ -29,7 +29,17 @@ ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
 
 # Matrix multiplication
 def arrayMultiply arr1, arr2
-  (0...arr1.length).inject(0) {|c,i| c + arr1[i]*arr2[i]}
+  n =arr1.length
+   #arr1.inject(0) {|c,i| c + arr1[i]*arr2[i]}
+   c = Array.new(n)
+  0.upto(arr1.length-1) do |i|
+    0.upto(arr2.length-1) do |j|
+      0.upto(arr1.length-1) do |k|
+        arr1[i][k] * arr2[k][j]
+      end
+    end
+  end
+  
 end
 
 
