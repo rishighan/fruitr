@@ -21,6 +21,16 @@ ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
 # Other correlation coefficients have been developed to be more robust than the Pearson correlation – that is,
 # more sensitive to nonlinear relationships.
 
+# Correlation Co-efficient Definition:    
+#  A measure of the strength of linear association between two variables. 
+#  Correlation will always between -1.0 and +1.0. 
+#  If the correlation is positive, we have a positive relationship. 
+#  If it is negative, the relationship is negative.
+
+def correlate hotness, familiarity
+  
+end
+
 def parseURL url
   purl = URI.parse(url) # parse the URL 
   response = Net::HTTP.get_response(purl)

@@ -20,13 +20,24 @@
 
 <ul class="artists well span5 offset4">
 		<%unless @similar.nil? %>
-		
+		 <table class="table">
+			<thead>
+			<th>Artist</th>
+			<th>Hotness</th>
+			<th>Familiarity</th>	
+			</thead>
 		 <% @similar["response"]["artists"].each do |artist|%>
-			<h4><%= artist["name"]%> </h4> 
-			Hotness: <%= hotness URI::escape(artist["name"])%>
-			Familiarity: <%= familiarity URI::escape(artist["name"])%> 
-			<br/> <br/>
-		 <%end%>
+			<tr>
+			<td> <%= artist["name"]%> </td> 
+			<td> <%= hotness URI::escape(artist["name"])%></td>
+			<td> <%= familiarity URI::escape(artist["name"])%></td> 
+			</tr>
+				
+		<%end%>
+		
+		</table>
+		
+		
 		<%end%>
 
 </ul>
