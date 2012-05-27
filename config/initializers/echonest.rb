@@ -1,11 +1,14 @@
-ECHONEST_API_KEY = "SKT9XNVNU4VQAJZEE"
-ECHONEST_API_SHARED_SECRET =  "gPcisMekQEOC1Ux4sSB+JA"
-ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
-
 # Rishi Ghan
 # rishighan.com
 # some basic ECHONEST API hooks
 # Please give credit if you are using this.
+
+require 'net/http'
+ECHONEST_API_KEY = "SKT9XNVNU4VQAJZEE"
+ECHONEST_API_SHARED_SECRET =  "gPcisMekQEOC1Ux4sSB+JA"
+ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
+RESULTS = 3
+
 
 # From Wikipedia:
 
@@ -29,17 +32,10 @@ ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
 
 # Matrix multiplication
 def arrayMultiply arr1, arr2
-  n =arr1.length
    #arr1.inject(0) {|c,i| c + arr1[i]*arr2[i]}
-   c = Array.new(n)
-  0.upto(arr1.length-1) do |i|
-    0.upto(arr2.length-1) do |j|
-      0.upto(arr1.length-1) do |k|
-        arr1[i][k] * arr2[k][j]
-      end
-    end
-  end
-  
+   result = Array.new()
+   result = arr1.zip(arr2).map {|x,y| x * y}
+   result.reduce(:+)
 end
 
 
@@ -76,7 +72,7 @@ end
 # real-time musical and cultural analysis of what people are saying across the Internet and what 
 # the music sounds like.
 def similar artist
-  url = "http://developer.echonest.com/api/v4/artist/similar?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json&start=0"
+  url = "http://developer.echonest.com/api/v4/artist/similar?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json&start=0&results=#{RESULTS}"
   parseURL url
   #also get their hotness?
 end

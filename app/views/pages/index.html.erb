@@ -31,32 +31,33 @@
 			<td> <%= artist["name"]%> </td> 
 			<td> <%= hotness URI::escape(artist["name"])%></td>
 			<td> <%= familiarity URI::escape(artist["name"])%></td> 
+			
 			</tr>
 				
 		<%end%>
 		    <thead>
-			<th> X,Y Values</th>
+			<th> &#8721;X, &#8721;Y Values</th>
 			<th> <% @similar["response"]["artists"].each do |artist|%>
-					<% @hotArray << (hotness URI::escape(artist["name"])) %>
+					<% @hotArray.push (hotness URI::escape(artist["name"])) %>
+					<% @famArray.push(familiarity URI::escape(artist["name"])) %>
 				 <%end%>
-				<%=	@hotArray.reduce(:+)%> 	
+				<%=	@hotArray.reduce(0) {|x,y| x + y} %> 	
 			</th>
 			
-			<th> <% @similar["response"]["artists"].each do |artist|%>
-					<% @famArray << (familiarity URI::escape(artist["name"])) %>
-				 <%end%>
-				<%=	@famArray.reduce(:+)%> 	
-			</th>
-				
+			<th> 
+				<%=	@famArray.reduce(0) {|x,y| x + y} %> 	
+			</th>				
 			</thead>
 			
 			<thead>
+			
 				<th>
-				   X*Y	
-				</th>
-				<th>
-					<%= arrayMultiply @hotArray, @famArray  %>
+				 &#8721;XY	
 				</th>	
+				
+				<th>
+				 <%= arrayMultiply @hotArray, @famArray %>
+				</th>
 			</thead>
 		</table>
 		
