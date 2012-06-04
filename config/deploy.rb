@@ -39,9 +39,9 @@ role :web, server_name
 role :db,  server_name, :primary => true
 
 # set the proper permission of the public folder
-# task :after_update_code, :roles => [:web, :db, :app] do
-#   run "chmod 755 #{release_path}/public"
-# end
+task :after_update_code, :roles => [:web, :db, :app] do
+  run "chmod 755 #{release_path}/public"
+end
 
 namespace :deploy do
   desc "restart passenger"
