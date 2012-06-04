@@ -50,13 +50,26 @@
 			</thead>
 			
 			<thead>
-			
 				<th>
 				 &#8721;XY	
 				</th>	
 				
 				<th>
 				 <%= arrayMultiply @hotArray, @famArray %>
+				</th>
+			</thead>
+			
+			<thead>
+				<th>
+				 &#8721;X<sup>2</sup>, 	 &#8721;Y<sup>2</sup>
+				</th>	
+				
+				<th>
+				 <%= @hotArray.reduce(0) {|x,y| x + (y * y) } %>
+				</th>
+				
+				<th>
+				 <%= @famArray.reduce(0) {|x,y| x + (y * y) } %>
 				</th>
 			</thead>
 		</table>

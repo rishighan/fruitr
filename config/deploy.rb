@@ -1,6 +1,7 @@
 set :application, "fruitr"
 
 default_run_options[:pty] = true 
+set :keep_releases, 1
 
 set :scm, :git
 set :scm_username, "rishighan"
