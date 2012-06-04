@@ -164,6 +164,7 @@ DEPENDENCIES
   mongoid (~> 2.4)
   nokogiri
   rails (= 3.1.1)
+  rake
   sass-rails (~> 3.1.4)
   twitter-bootstrap-rails!
   uglifier (>= 1.0.3)

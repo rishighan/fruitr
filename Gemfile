@@ -10,6 +10,7 @@ gem "bson_ext", "~> 1.5"
 
 gem 'json'
 gem 'nokogiri'
+gem 'rake'
 
 
 # Gems used only for assets and not required

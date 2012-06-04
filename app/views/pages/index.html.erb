@@ -72,6 +72,18 @@
 				 <%= @famArray.reduce(0) {|x,y| x + (y * y) } %>
 				</th>
 			</thead>
+			
+			<thead>
+				<th>
+				 Correlation Coefficient
+				</th>	
+				
+				<th>
+				 <%= ruby_pearson @hotArray, @famArray %>
+				</th>
+				
+			
+			</thead>
 		</table>
 		
 		
