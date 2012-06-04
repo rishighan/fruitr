@@ -14,7 +14,7 @@ set :deploy_via, :remote_cache
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 set :server, :passenger
-set :user, "root"
+set :user, "rishigha"
 set :server_name, "rishighan.com"
 server "rishighan.com", :app, :web, :db, :primary => true 
 
@@ -23,8 +23,13 @@ server "rishighan.com", :app, :web, :db, :primary => true
 # these http://github.com/rails/irs_process_scripts
 
 ###### There is no need to edit anything below this line ######
-set :deploy_to, "/home/rishigha/#{application}"
+set :deploy_to, "/home/#{user}/#{application}"
 set :use_sudo, false
+
+set :default_environment, {
+      'PATH' => "/opt/ruby-enterprise-1.8.7-2011.03/bin/:$PATH"
+    }
+
 #set :group_writable, false
 default_run_options[:pty] = true 
 ssh_options[:forward_agent] = true
@@ -38,16 +43,12 @@ task :after_update_code, :roles => [:web, :db, :app] do
   run "chmod 755 #{release_path}/public"
 end
 
-
-
 namespace :deploy do
   desc "restart passenger"
   task :restart do
     passenger::restart
   end
 end
-
-
 
 namespace :passenger do
   desc "Restart dispatchers"
