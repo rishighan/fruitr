@@ -27,7 +27,7 @@ set :deploy_to, "/home/#{user}/#{application}"
 set :use_sudo, false
 
 set :default_environment, {
-      'PATH' => "/usr/local/rvm/rubies/ruby-1.8.7-p358/bin/:$PATH"
+      'PATH' => "/opt/ruby-enterprise-1.8.7-2011.03/bin/:$PATH"
     }
 
 #set :group_writable, false
