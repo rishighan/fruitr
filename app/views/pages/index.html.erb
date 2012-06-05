@@ -1,6 +1,32 @@
 <div class="row">
 <script type="text/javascript" charset="utf-8">
-	var chart1;
+	var chart1; // globally available
+	$(document).ready(function() {
+	      chart1 = new Highcharts.Chart({
+	         chart: {
+	            renderTo: 'container',
+	            type: 'bar'
+	         },
+	         title: {
+	            text: 'Fruit Consumption'
+	         },
+	         xAxis: {
+	            categories: ['Apples', 'Bananas', 'Oranges']
+	         },
+	         yAxis: {
+	            title: {
+	               text: 'Fruit eaten'
+	            }
+	         },
+	         series: [{
+	            name: 'Jane',
+	            data: [1, 0, 4]
+	         }, {
+	            name: 'John',
+	            data: [5, 7, 3]
+	         }]
+	      });
+	   });
 
 </script>
 <div class="hero well span5 offset4">
@@ -20,7 +46,7 @@
 
 <div id="echochart" class="span5 offset4"></div>
 
-<ul class="artists well span5 offset4">
+<div class="artists well span5 offset4">
 		<%unless @similar.nil? %>
 		 <table class="table">
 			<thead>
@@ -91,7 +117,12 @@
 		
 		<%end%>
 
-</ul>
+</div>
+
+	<div id="container">
+		
+	</div>
+
 
 	
 
