@@ -101,9 +101,22 @@ def similar artist
   #also get their hotness?
 end
 
+# Get a list of news articles related to an artist.
+def news artist
+  url = "http://developer.echonest.com/api/v4/artist/news?api_key=#{ECHONEST_API_KEY}&format=json&name=#{artist}&results=#{RESULTS}"
+  result = parseURL url
+  result["response"]["total"]
+end
+
+# Get a list of blog articles related to an artist.
+def blogs artist
+  url = "http://developer.echonest.com/api/v4/artist/blogs?api_key=#{ECHONEST_API_KEY}&format=json&name=#{artist}&results=#{RESULTS}"
+  result = parseURL url
+  result["response"]["total"]
+end
+
 
 # Get a list of most descriptive terms for an artist
 def terms artist
   url = URI.parse("http://developer.echonest.com/api/v4/artist/terms?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json")
-  
 end

@@ -1,0 +1,29 @@
+<table class="table">
+	<thead>
+		<th>Artist</th>
+		<th>Blogs</th>
+		<th>News</th>
+	</thead>
+
+		<% @similar["response"]["artists"].each do |artist|%>
+	<tr>
+		  <td><%= artist["name"] %></td>
+		  <td><%= blogs URI::escape(artist["name"]) %></td>
+		  <td><%= news URI::escape(artist["name"]) %></td>
+	</tr>	
+		<% end %>
+	    	
+	
+	
+	<tr>
+		<td>
+			<% @similar["response"]["artists"].each do |artist| %>
+				<% @blogArray.push blogs URI::escape(artist["name"]) %>
+				<% @newsArray.push news URI::escape(artist["name"]) %>
+				
+			<%end%>
+			
+		</td>	
+		
+	</tr>	
+</table>
