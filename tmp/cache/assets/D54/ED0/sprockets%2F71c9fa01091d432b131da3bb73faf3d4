@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@expires_in0:@compressedF:@value{	"_version"%6b214c884bfde3a6a63a478e7f06b449"digest"%7dc91701476f788b357865908f7d32fc"lengthiRB"source"RB/*
+o: ActiveSupport::Cache::Entry	:@expires_in0:@compressedF:@value{	"_version"%65f657c9bc30a43b5d7e4953556da8ef"digest"%650446049650cb1cb3d54376d964f5bf"lengthiÜB"source"ÜB/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -7881,6 +7881,12 @@ li[class*=" icon-"].icon-large:before {
 #hotfamchart, #blognewschart {
   margin: 0 0 20px 0;
 }
+
+/* line 12, /Users/roweandesign/Sites/fruitr/app/assets/stylesheets/pages.css.scss */
+footer h5 {
+  color: #999;
+  text-align: center;
+}
 /* line 1, /Users/roweandesign/Sites/fruitr/app/assets/stylesheets/scaffolds.css.scss */
 body {
   background-color: #fff;
@@ -7969,4 +7975,4 @@ div.field, div.actions {
   float: left;
   padding: 10px;
 }
-:@created_atf1339102395.790447 –¯
+:@created_atf1339103902.430074 †U

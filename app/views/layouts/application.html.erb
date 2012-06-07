@@ -10,12 +10,15 @@
 <p>
 <%= flash[:notice] %>	
 </p>
+
+<div class="row">
 <%= yield %>
 
-<footer>
-<p>All content presented here is property of Rishi Ghan, unless otherwise specified</p>	
+<footer class="span6 offset3">
+<h5>All content presented here is property of <a href="http://www.rishighan.com">Rishi Ghan</a>, unless otherwise specified</h5>	
 <%= render :partial => '/layouts/analytics' %>	
 </footer>
+</div>
 
 </body>
 </html>
