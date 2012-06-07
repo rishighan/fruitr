@@ -14648,5 +14648,5 @@ extend(Highcharts, {
 }());
 "content_type"application/javascript"
 class"BundledAsset"
-mtime"2012-05-31T12:59:10-04:00"_version"%0868aba5d4b750d3a9421721ea3d9b9c"id"%343a2e159910e1529f8f62dcc98b1935"dependency_paths[{"hexdigest"%c88a6a86080d18e7e16fb5ebf6bf048b"
-mtimeu:	Timeğ€   ì"	path">$root/app/assets/javascripts/highcharts/highcharts.src.js"pathname">$root/app/assets/javascripts/highcharts/highcharts.src.js"logical_path"!highcharts/highcharts.src.js:@created_atf1339084167.0719321 š‰
+mtime"2012-05-31T12:59:10-04:00"_version"%df7525e917401704ef453cb56bf16697"id"%4a177d20e3b51ff3dfc8bf1c0aed0fdc"dependency_paths[{"hexdigest"%b42efb2725fd8e50b1975c2555b4205d"
+mtimeu:	Timeğ€   ì"	path">$root/app/assets/javascripts/highcharts/highcharts.src.js"pathname">$root/app/assets/javascripts/highcharts/highcharts.src.js"logical_path"!highcharts/highcharts.src.js:@created_atf1339096120.0613351 ìê
