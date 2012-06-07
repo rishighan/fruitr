@@ -239,5 +239,5 @@ k=this.center,l=k[2]/2,m=k[1],p=j>0,q=[[],[]],r,s,t,u,z=2,v;if(d.enabled){Q.prot
 getSymbol:function(){}};T=ca(Q,T);Y.pie=T;u(Highcharts,{Axis:nb,CanVGRenderer:ub,Chart:qb,Color:oa,Legend:pb,Point:Va,Tick:Ra,Tooltip:ob,Renderer:Sa,Series:Q,SVGRenderer:pa,VMLRenderer:ka,dateFormat:db,pathAnim:Ta,getOptions:function(){return V},hasBidiBug:Rb,numberFormat:Xa,seriesTypes:Y,setOptions:function(a){V=y(V,a);Bb();return V},addEvent:H,removeEvent:O,createElement:R,discardElement:Pa,css:F,each:n,extend:u,map:Ea,merge:y,pick:o,splat:ra,extendClass:ca,pInt:z,product:"Highcharts",version:"2.2.4"})})();
 "content_type"application/javascript"
 class"BundledAsset"
-mtime"2012-05-31T12:57:54-04:00"_version"%df7525e917401704ef453cb56bf16697"id"%3286d26a975850c24d02e87279c3c8c1"dependency_paths[{"hexdigest"%bc7f8305105564b8f711a2779dd285fc"
-mtimeu:	Timeð€  `ç"	path":$root/app/assets/javascripts/highcharts/highcharts.js"pathname":$root/app/assets/javascripts/highcharts/highcharts.js"logical_path"highcharts/highcharts.js:@created_atf1339096120.041507 ¨
+mtime"2012-05-31T12:57:54-04:00"_version"%0868aba5d4b750d3a9421721ea3d9b9c"id"%114fb01b6215ea2f801a60691bb6ab17"dependency_paths[{"hexdigest"%979103d23990b2e1e88b504b44505800"
+mtimeu:	Timeð€  `ç"	path":$root/app/assets/javascripts/highcharts/highcharts.js"pathname":$root/app/assets/javascripts/highcharts/highcharts.js"logical_path"highcharts/highcharts.js:@created_atf1339100007.6561871 þø
