@@ -115,6 +115,11 @@ def blogs artist
   result["response"]["total"]
 end
 
+def images artist
+  url = "http://developer.echonest.com/api/v4/artist/images?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json&results=#{RESULTS}&start=0&license=unknown"
+  result = parseURL url
+  result["response"]["images"]
+end
 
 # Get a list of most descriptive terms for an artist
 def terms artist
