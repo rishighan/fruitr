@@ -9,8 +9,13 @@ The initial idea calculates the Pearson product-moment coefficient of correlatio
 		<h4>Enter an artist name and hit 'Search'<h4>
 		<br/>	
 		<%= form_tag '/', :class=> "form-search", :method=>:get do  %>
-		<%=label :name, "Artist"%>  
-		<%= text_field_tag :name, params[:name], :class=>"input-medium search-query" %>
+		
+		
+		<%=label :genre, "Genre"%>
+		<%= text_field_tag :genre, params[:genre], :class=>"input-medium search-query" %>
+		
+		<%=label :startyear, "Start Year"%>
+		
 		
 		<%= submit_tag "Search", :class=>"btn btn-primary", :name=>nil %>
 

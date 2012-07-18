@@ -127,7 +127,9 @@ def terms artist
   url = URI.parse("http://developer.echonest.com/api/v4/artist/terms?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json")
 end
 
-# searches for a given artist
-def search artist, startyear, endyear, genre
-  url ="http://developer.echonest.com/api/v4/artist/search?api_key=#{ECHONEST_API_KEY}&style=#{genre}format=json&name=#{artist}&results=#{RESULTS}"
+# Search artists.
+# Right now I am providing artist name, startyear and endyear, genre as the params that you can pass to this method
+# Todo: figure out how to make all the params listed here: http://developer.echonest.com/docs/v4/artist.html#search available.
+def search startyear, endyear, genre
+  url ="http://developer.echonest.com/api/v4/artist/search?api_key=#{ECHONEST_API_KEY}&style=#{genre}&artist_start_year_after=#{startyear}&artist_end_year_before=#{endyear}&format=json&results=#{RESULTS}"
 end
