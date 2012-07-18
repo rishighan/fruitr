@@ -115,6 +115,7 @@ def blogs artist
   result["response"]["total"]
 end
 
+# Get a list of artist images.
 def images artist
   url = "http://developer.echonest.com/api/v4/artist/images?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json&results=#{RESULTS}&start=0&license=unknown"
   result = parseURL url

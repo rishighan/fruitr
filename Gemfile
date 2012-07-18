@@ -15,6 +15,10 @@ gem 'rake'
 #new relic analytics gem
 gem 'newrelic_rpm'
 
+group :test do
+ gem 'cucumber'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
