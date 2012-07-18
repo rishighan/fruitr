@@ -127,7 +127,7 @@ def terms artist
   url = URI.parse("http://developer.echonest.com/api/v4/artist/terms?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json")
 end
 
-
+# searches for a given artist
 def search artist, startyear, endyear, genre
   url ="http://developer.echonest.com/api/v4/artist/search?api_key=#{ECHONEST_API_KEY}&style=#{genre}format=json&name=#{artist}&results=#{RESULTS}"
 end
