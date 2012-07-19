@@ -2,6 +2,9 @@ class PagesController < ApplicationController
 
   
   def index
+  unless params[:genre].blank?
+    @search = search URI::escape(params[:genre]), URI::escape(params[:startyear]), URI::escape(params[:endyear])
+  end
     unless params[:name].blank?
       # why did I just declare a hash, what the fuck was I thinking?
       #@hotness = hotness URI::escape(params[:name])

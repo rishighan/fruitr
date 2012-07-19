@@ -1,5 +1,22 @@
 <div class="span span6">
-	<% @search["response"]["artists"].each do |results| %>
-		<%= results["name"] %>
-    <% end %>	
+  <table class="table">
+	<thead>
+		<th>Name</th>
+		<th>Hotttnesss</th>
+		<th>Familiarity</th>
+		<th>Blogs</th>
+	</thead>
+	
+	<% @search["response"]["artists"].each do |artist| %>
+		
+		<tr>
+		<td><%= artist["name"]%></td>
+		<td><%= hotness URI::escape(artist["name"])%></td>
+		<td><%= familiarity URI::escape(artist["name"])%> </td>
+		<td><%= blogs URI::escape(artist["name"])%> </td>
+		</tr>
+		
+		
+	<% end %>
+</table>		
 </div>

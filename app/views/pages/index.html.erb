@@ -11,37 +11,29 @@ The initial idea calculates the Pearson product-moment coefficient of correlatio
 		<%= form_tag '/', :class=> "form-search", :method=>:get do  %>
 		
 		
-		<%=label :name, "Name"%>
-		<%= text_field_tag :name, params[:name], :class=>"input-medium search-query" %>
+		<%=label :genre, "Genre"%>
+		<%= text_field_tag :genre, params[:genre], :class=>"input-medium search-query" %>
+		<br/><br/>
+		<%= label :startyear, "Start Year" %>
+		<%= text_field_tag :startyear, params[:startyear], :class=>"input-small search-query" %>
+		<br/><br/>
+		<%= label :endyear, "End year" %>
+		<%= text_field_tag :endyear, params[:endyear], :class=>"input-small search-query" %>
+		
+		<%= submit_tag "Fruitify!", :id => "submit", :name => "submit", :class => "btn btn-primary", :disabled => false, :disable_with => "Please wait..." %>
 
 	  	<%end%>
 
 </div>	
 
-
-
 <div class="artists well span6 offset3">
-		<%unless @similar.nil? %>
-		
-		<!-- hotttnesss vs. familiarity -->
-		<%= render :partial=> 'first_step' %> 
-		<p>The Echonest API provides two metrics, <code>hotttnesss</code> and <code>familiarity</code> each of which is calculated based on several parameters–number of record sales, number of concerts, number of live performances etc. The specifics are at best, ambiguous.</p>
-		<p> So, I calculate the Pearson product-moment coefficient of correlation (r) between <code>hotttnesss</code> and <code>familiarity</code> If the correlation is strong (closer to 1) we can say that the two metrics are <i>closely related</i><sup>1</sup> and partially substantiate the methods that Echonest says it uses to calculate them.
-		</p>
-		<br/>
-		<div id="hotfamchart" class="span6"></div>
-		
-		<!-- blogs vs. news -->
-		<p><sup>1</sup> "closely related" is still not enough. We need more metrics to substantiate <code>hotttnesss</code> I begin by plotting <code>blogs</code> against <code>news</code> More information on these metrics is available <a href="http://developer.echonest.com/docs/v4/artist.html#news" target="_blank">here</a> and <a href="http://developer.echonest.com/docs/v4/artist.html#blogs" target="_blank">here</a>.
-		</p>
-		<p>
-			The correlation between these two metrics will vary wildly. 
-		</p>
-		<%= render :partial=> 'second_step'%>
-		
-		<div id="blognewschart" class="span6"></div>
-		
-		<%end%>
+
+<%unless @search.nil? %>		
+
+  <!-- search method results -->
+  <%= render :partial => "search_artist" %>
+
+ <%end%>
 
 
 

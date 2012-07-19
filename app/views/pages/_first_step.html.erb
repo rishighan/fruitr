@@ -64,3 +64,11 @@
 	
 	</thead>
 </table>
+
+
+
+<p>The Echonest API provides two metrics, <code>hotttnesss</code> and <code>familiarity</code> each of which is calculated based on several parameters–number of record sales, number of concerts, number of live performances etc. The specifics are at best, ambiguous.</p>
+<p> So, I calculate the Pearson product-moment coefficient of correlation (r) between <code>hotttnesss</code> and <code>familiarity</code> If the correlation is strong (closer to 1) we can say that the two metrics are <i>closely related</i><sup>1</sup> and partially substantiate the methods that Echonest says it uses to calculate them.
+</p>
+<br/>
+<div id="hotfamchart" class="span6"></div>
