@@ -8,7 +8,7 @@ class PagesController < ApplicationController
       @similar = similar URI::escape(params[:name])
       @hotArray, @famArray, @blogArray, @newsArray = Array.new(), Array.new(), Array.new(), Array.new()
       @artistImages = images URI::escape(params[:name])
-      @search = search
+
     end
  end
 
