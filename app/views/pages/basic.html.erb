@@ -1,14 +1,20 @@
 <div class="hero well span6 offset3">
-	<h3>Welcome to Fruitr</h3>
+	<h3>Welcome to Fruitr</h3><br/>
+	<p> I have embarked on a quest to substantiate the <code>hotttnesss</code> rating that Echonest applies to musical artists. There is no documentation on how it is calculated. What I am attempting here, is the first step in that quest.
+	</p>
 	
+	<p>Enter an artist name as a seed value. You will see a list of <code>similar</code> artists in decreasing order of similarity. I also retrieve the <code>familiarity</code> and <code>hotttnesss</code> ratings for these artists. Then I calculate the Pearson product-moment coefficient of correlation for this sample size.</p>
+	
+	<p>The idea: If there is a strong correlation between <code>hotttnesss</code> and <code>familiarity</code> for a substantial number of data sets, then we can conclude that <code>familiarity</code> plays a role in calculating <code>hotttnesss</code> or vice versa. Here we go!</p>
+		<br/><br/>
 		<h4>Enter an artist name and hit 'Search'<h4>
-		<br/>	
+		<br/>
 		<%= form_tag '/basic', :class=> "form-search", :method=>:get do  %>
 		
 		
 		<%=label :name, "Name"%>
 		<%= text_field_tag :name, params[:name], :class=>"input-medium search-query" %>
-		<br/><br/>
+
 		
 		
 		<%= submit_tag "Fruitify!", :id => "submit", :name => "submit", :class => "btn btn-primary", :disabled => false, :disable_with => "Please wait..." %>
