@@ -4,6 +4,7 @@ class PagesController < ApplicationController
  def genre
   unless params[:genre].blank?
     @search = search URI::escape(params[:genre]), URI::escape(params[:startyear]), URI::escape(params[:endyear])
+    @hotness,@fam = Array.new(), Array.new()
   end
  end
  

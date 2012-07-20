@@ -16,7 +16,17 @@
 		<td><%= blogs URI::escape(artist["name"])%> </td>
 		</tr>
 		
+		 <% @hotness.push(hotness URI::escape(artist["name"]))%>
+		 <% @fam.push(familiarity URI::escape(artist["name"]))%>
 	<% end %>	
 	<% end %>
+	
+	<thead>
+	 <th>
+	  Correlation	
+	 </th>
+
+	 <th><%= ruby_pearson @hotness, @fam %></th>
+	</thead>	
 </table>		
 </div>
