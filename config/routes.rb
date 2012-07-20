@@ -1,5 +1,6 @@
 Fruitr::Application.routes.draw do
-  root :to => "pages#index"
+  root :to => "pages#basic"
+  get "/genre" => "pages#genre"
   get "/basic" => "pages#basic"
   resources :tracks
   get '/tracks' => "tracks#index"

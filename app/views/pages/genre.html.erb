@@ -1,0 +1,44 @@
+<div class="hero well span6 offset3">
+	<h3>Welcome to Fruitr</h3>
+		<br/>
+		<p>
+			Fruitr is an experiment with the Echonest API.	
+			It is an exposition of the idea stated <a href="http://www.rishighan.com/thesis/coconuts-and-collateral"> here</a>
+The initial idea calculates the Pearson product-moment coefficient of correlation between the hotttnesss and familiarity ratings retrieved from Echonest. This helps to add a layer of verification on top of the numerical ratings that Echonest applies to intangible concepts such as how 'hot' an artist is.
+			</p><br/>
+		<h4>Enter a genre, start year and an end year:<h4>
+		<br/>	
+		<%= form_tag '/genre', :class=> "form-search", :method=>:get do  %>
+		
+		
+		<%=label :genre, "Genre"%>
+		<%= text_field_tag :genre, params[:genre], :class=>"input-medium search-query" %>
+		<br/><br/>
+		<%= label :startyear, "Start Year" %>
+		<%= text_field_tag :startyear, params[:startyear], :class=>"input-small search-query" %>
+		<br/><br/>
+		<%= label :endyear, "End year" %>
+		<%= text_field_tag :endyear, params[:endyear], :class=>"input-small search-query" %>
+		
+		<%= submit_tag "Fruitify!", :id => "submit", :name => "submit", :class => "btn btn-primary", :disabled => false, :disable_with => "Please wait..." %>
+
+	  	<%end%>
+
+</div>	
+
+<div class="span6 offset3">
+
+<%unless @search.nil? %>		
+
+  <!-- search method results -->
+  <%= render :partial => "search_artist" %>
+
+ <%end%>
+
+
+
+
+	
+</div>
+
+	

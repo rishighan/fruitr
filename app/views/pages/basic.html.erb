@@ -7,7 +7,7 @@
 	
 	<p>The idea: If there is a strong correlation between <code>hotttnesss</code> and <code>familiarity</code> for a substantial number of data sets, then we can conclude that <code>familiarity</code> plays a role in calculating <code>hotttnesss</code> or vice versa. Here we go!</p>
 		<br/><br/>
-		<h4>Enter an artist name and hit 'Search'<h4>
+		<h4>Enter an artist name:<h4>
 		<br/>
 		<%= form_tag '/basic', :class=> "form-search", :method=>:get do  %>
 		
@@ -29,3 +29,66 @@
 		<%= render :partial => "second_step"%>
 	</div>	
 	<% end %>
+	
+	<script type="text/javascript" charset="utf-8">
+		var chart1, chart2; // globally available
+		$(document).ready(function() {
+		      chart1 = new Highcharts.Chart({
+		         chart: {
+		            renderTo: 'hotfamchart',
+		            type: 'line'
+		         },
+		         title: {
+		            text: 'Hotttnesss vs. Familiarity'
+		         },
+		         xAxis: {
+		            title:
+						{
+							text:'Hotttnesss'
+						}
+		         },
+		         yAxis: {
+		            title: {
+		               text: 'Familiarity'
+		            }
+		         },
+		         series: [{
+		            name: 'Hotttnesss',
+		            data: <%= @hotArray.inspect %>
+		         }, {
+		            name: 'Familiarity',
+		            data: <%= @famArray.inspect %>
+		         }]
+		      });
+
+		    // blogs vs news
+			chart2 = new Highcharts.Chart({
+		         chart: {
+		            renderTo: 'blognewschart',
+		            type: 'line'
+		         },
+		         title: {
+		            text: 'Total blogs vs. total news'
+		         },
+		         xAxis: {
+		            title:
+						{
+							text:'Blogs'
+						}
+		         },
+		         yAxis: {
+		            title: {
+		               text: 'News'
+		            }
+		         },
+		         series: [{
+		            name: 'Blogs',
+		            data: <%= @blogArray.inspect %>
+		         }, {
+		            name: 'News',
+		            data: <%= @newsArray.inspect %>
+		         }]
+		      });
+		   });
+
+	</script>

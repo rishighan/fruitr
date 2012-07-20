@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
   
- def index
+ def genre
   unless params[:genre].blank?
     @search = search URI::escape(params[:genre]), URI::escape(params[:startyear]), URI::escape(params[:endyear])
   end
