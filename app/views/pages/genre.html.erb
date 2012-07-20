@@ -25,7 +25,7 @@
 
 </div>	
 
-<canvas id="genreCanvas" class="span offset3">
+<canvas id="genreCanvas" class="span offset3" width="1000">
 	Your browser does not support the Canvas element. Maybe try downloading Chrome?
 </canvas>
 
@@ -45,21 +45,27 @@
 	        var canvas = document.getElementById("genreCanvas");
 	        var context = canvas.getContext("2d");
 			context.fillStyle ="#000000";
-	        var x = canvas.width / 2;
+	        // var x = canvas.width / 2;
+			var x= canvas.width / 2;
 	        var y = canvas.height / 2;
-	        var radius = 75;
+	        var radius = 90;
 	        var startAngle = 0;
 	        var endAngle = 360;
 	        var counterClockwise = false;
 
-	        context.beginPath();
-	
-	        context.arc(x, y, radius, startAngle, endAngle, counterClockwise);
-	        context.lineWidth = 15;
+	        
+            <% unless @hotness.nil? %>
+			<% @hotness.each do |hot| %> 
+			context.beginPath();
+	        context.arc(<%= hot * 2000 %>, y, radius * <%= hot %>, startAngle, endAngle, counterClockwise);
+			context.lineWidth = 15;
+			context.fillStyle="#000000";
 	        // line color
 	        context.strokeStyle = "black";
 	        context.stroke();
 			context.closePath();
+			<% end %>
+	        <% end %>
 			
 	      };
 	
