@@ -25,19 +25,43 @@
 
 </div>	
 
+<canvas id="genreCanvas" class="span offset3">
+	Your browser does not support the Canvas element. Maybe try downloading Chrome?
+</canvas>
+
 <div class="span6 offset3">
 
-<%unless @search.nil? %>		
-
+ <%unless @search.nil? %>		
   <!-- search method results -->
   <%= render :partial => "search_artist" %>
 
  <%end%>
-
-
-
-
 	
 </div>
 
+
+	<script type="text/javascript" charset="utf-8">
+	window.onload = function() {
+	        var canvas = document.getElementById("genreCanvas");
+	        var context = canvas.getContext("2d");
+			context.fillStyle ="#000000";
+	        var x = canvas.width / 2;
+	        var y = canvas.height / 2;
+	        var radius = 75;
+	        var startAngle = 0;
+	        var endAngle = 360;
+	        var counterClockwise = false;
+
+	        context.beginPath();
 	
+	        context.arc(x, y, radius, startAngle, endAngle, counterClockwise);
+	        context.lineWidth = 15;
+	        // line color
+	        context.strokeStyle = "black";
+	        context.stroke();
+			context.closePath();
+			
+	      };
+	
+	</script>
+
