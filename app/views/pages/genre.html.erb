@@ -2,10 +2,9 @@
 	<h3>Welcome to Fruitr</h3>
 		<br/>
 		<p>
-			Fruitr is an experiment with the Echonest API.	
-			It is an exposition of the idea stated <a href="http://www.rishighan.com/thesis/coconuts-and-collateral"> here</a>
-The initial idea calculates the Pearson product-moment coefficient of correlation between the hotttnesss and familiarity ratings retrieved from Echonest. This helps to add a layer of verification on top of the numerical ratings that Echonest applies to intangible concepts such as how 'hot' an artist is.
-			</p><br/>
+		This part of the experiment lets you search by genre and a year range. Two interesting bucket parameters here are:
+		<code>artist_start_year_after</code> and <code>artist_end_year_before</code> that lets us search for artists within a specific time period. This is still very experimental. The "end year", as far as I can surmise, indicates the year after which the artist stop producing/making/performing any music. Because of this, you will see a lot of obscure artist names.
+		</p><br/>
 		<h4>Enter a genre, start year and an end year:<h4>
 		<br/>	
 		<%= form_tag '/genre', :class=> "form-search", :method=>:get do  %>
