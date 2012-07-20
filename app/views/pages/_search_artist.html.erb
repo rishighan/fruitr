@@ -6,7 +6,7 @@
 		<th>Familiarity</th>
 		<th>Blogs</th>
 	</thead>
-	
+	<% unless @search.nil?%>
 	<% @search["response"]["artists"].each do |artist| %>
 		
 		<tr>
@@ -16,7 +16,7 @@
 		<td><%= blogs URI::escape(artist["name"])%> </td>
 		</tr>
 		
-		
+	<% end %>	
 	<% end %>
 </table>		
 </div>
