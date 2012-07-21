@@ -57,7 +57,7 @@
             <% unless @hotness.nil? %>
 			<% @hotness.each do |hot| %> 
 			context.beginPath();
-	        context.arc(<%= hot * 2000 %>, y, radius * <%= hot %>, startAngle, endAngle, counterClockwise);
+	        context.arc(x * <%= hot%>, y, radius * <%= hot %>, startAngle, endAngle, counterClockwise);
 			context.lineWidth = 15;
 			context.fillStyle="#000000";
 	        // line color
