@@ -44,28 +44,31 @@
 	window.onload = function() {
 	        var canvas = document.getElementById("genreCanvas");
 	        var context = canvas.getContext("2d");
-			context.fillStyle ="#000000";
+			context.fillStyle ="red";
 	        // var x = canvas.width / 2;
-			var x= canvas.width / 2;
-	        var y = canvas.height / 2;
-	        var radius = 90;
-	        var startAngle = 0;
-	        var endAngle = 360;
-	        var counterClockwise = false;
+			var x= 40,
+	        y = canvas.height / 2,
+			width =10, height =40,
+	        radius = 20,
+	        startAngle = 0,
+	        endAngle = 360,
+			i =1;
+	        counterClockwise = false;
 
 	        
             <% unless @hotness.nil? %>
-			<% @hotness.each do |hot| %> 
-			context.beginPath();
-	        context.arc(x * <%= hot%>, y, radius * <%= hot %>, startAngle, endAngle, counterClockwise);
-			context.lineWidth = 15;
-			context.fillStyle="#000000";
-	        // line color
-	        context.strokeStyle = "black";
-	        context.stroke();
+            <% @hotness.each do |hot| %> 
+            context.beginPath();
+       		context.fillStyle = "red";
+			
+            context.arc( x*i*1.5, y,  radius*<%= hot %>*i, startAngle, endAngle, counterClockwise);
+            //context.fillRect((width*i),y, 10, height*<%=hot%>);		
+			context.fill();
 			context.closePath();
-			<% end %>
-	        <% end %>
+			i+=2;
+            
+            <% end %>
+            <% end %>
 			
 	      };
 	

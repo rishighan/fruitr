@@ -7,7 +7,7 @@ require 'net/http'
 ECHONEST_API_KEY = "SKT9XNVNU4VQAJZEE"
 ECHONEST_API_SHARED_SECRET =  "gPcisMekQEOC1Ux4sSB+JA"
 ECHONEST_CONSUMER_KEY = "0360c63d76f6accd4a066539824d74c7"
-RESULTS = 10
+RESULTS = 6
 
 
 # From Wikipedia:
@@ -131,7 +131,7 @@ end
 # Right now I am providing artist name, startyear and endyear, genre as the params that you can pass to this method
 # Todo: figure out how to make all the params listed here: http://developer.echonest.com/docs/v4/artist.html#search available.
 def search genre, startyear, endyear
-  url ="http://developer.echonest.com/api/v4/artist/search?api_key=#{ECHONEST_API_KEY}&format=json&style=#{genre}&artist_start_year_after=#{startyear}&artist_end_year_before=#{endyear}"
+  url ="http://developer.echonest.com/api/v4/artist/search?api_key=#{ECHONEST_API_KEY}&sort=hotttnesss-desc&format=json&style=#{genre}&artist_start_year_after=#{startyear}&artist_end_year_before=#{endyear}&results=#{RESULTS}"
   result = parseURL url
   
 end
