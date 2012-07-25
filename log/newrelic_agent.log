@@ -349,3 +349,23 @@
 [07/25/12 11:00:10 -0400 RJWs-iMac.nnn (62122)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
 [07/25/12 11:00:10 -0400 RJWs-iMac.nnn (62122)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 62122
 [07/25/12 11:00:10 -0400 RJWs-iMac.nnn (62122)] INFO : Agent Log at /Users/roweandesign/Sites/fruitr/log/newrelic_agent.log
+[07/25/12 12:02:59 -0400 RJWs-iMac.nnn (65124)] INFO : Dispatcher: passenger
+[07/25/12 12:02:59 -0400 RJWs-iMac.nnn (65124)] INFO : Application: Fruitr
+[07/25/12 12:02:59 -0400 RJWs-iMac.nnn (65124)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[07/25/12 12:02:59 -0400 RJWs-iMac.nnn (65124)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 65124
+[07/25/12 12:02:59 -0400 RJWs-iMac.nnn (65124)] INFO : Agent Log at /Users/roweandesign/Sites/fruitr/log/newrelic_agent.log
+[07/25/12 12:23:22 -0400 RJWs-iMac.nnn (65955)] INFO : Dispatcher: passenger
+[07/25/12 12:23:22 -0400 RJWs-iMac.nnn (65955)] INFO : Application: Fruitr
+[07/25/12 12:23:22 -0400 RJWs-iMac.nnn (65955)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[07/25/12 12:23:22 -0400 RJWs-iMac.nnn (65955)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 65955
+[07/25/12 12:23:22 -0400 RJWs-iMac.nnn (65955)] INFO : Agent Log at /Users/roweandesign/Sites/fruitr/log/newrelic_agent.log
+[07/25/12 12:50:07 -0400 RJWs-iMac.nnn (67114)] INFO : Dispatcher: passenger
+[07/25/12 12:50:07 -0400 RJWs-iMac.nnn (67114)] INFO : Application: Fruitr
+[07/25/12 12:50:07 -0400 RJWs-iMac.nnn (67114)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[07/25/12 12:50:07 -0400 RJWs-iMac.nnn (67114)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 67114
+[07/25/12 12:50:07 -0400 RJWs-iMac.nnn (67114)] INFO : Agent Log at /Users/roweandesign/Sites/fruitr/log/newrelic_agent.log
+[07/25/12 13:05:33 -0400 RJWs-iMac.nnn (67907)] INFO : Dispatcher: passenger
+[07/25/12 13:05:33 -0400 RJWs-iMac.nnn (67907)] INFO : Application: Fruitr
+[07/25/12 13:05:33 -0400 RJWs-iMac.nnn (67907)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[07/25/12 13:05:33 -0400 RJWs-iMac.nnn (67907)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 67907
+[07/25/12 13:05:33 -0400 RJWs-iMac.nnn (67907)] INFO : Agent Log at /Users/roweandesign/Sites/fruitr/log/newrelic_agent.log

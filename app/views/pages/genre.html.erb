@@ -62,8 +62,9 @@
        		context.fillStyle = "red";
 			
             context.arc( x*i*1.5, y,  radius*<%= hot %>*i, startAngle, endAngle, counterClockwise);
+			context.fillText(<%= hot %>, x*i*1.5, y );
             //context.fillRect((width*i),y, 10, height*<%=hot%>);		
-			context.fill();
+			context.stroke();
 			context.closePath();
 			i+=2;
             
