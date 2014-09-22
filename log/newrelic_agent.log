@@ -768,3 +768,57 @@
 [09/21/14 21:19:20 -0400 Rishis-Mac-Pro.local (48216)] INFO : Installing Rails 4 Error instrumentation
 [09/21/14 21:19:20 -0400 Rishis-Mac-Pro.local (48216)] INFO : Finished instrumentation
 [09/21/14 21:19:20 -0400 Rishis-Mac-Pro.local (48216)] INFO : Doing deferred dependency-detection before Rack startup
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Starting the New Relic agent in "development" environment.
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Reading configuration from config/newrelic.yml (/Users/rishighan/sites/fruitr)
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : New Relic Agent Developer Mode enabled.
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Environment: development
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Dispatcher: webrick
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Application: Fruitr
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] WARN : Agent configured not to send data in this environment.
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Installing ActiveRecord 4 instrumentation
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Installing Net instrumentation
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Installing deferred Rack instrumentation
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Installing Rack::Builder middleware instrumentation
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Installing Rails 3+ middleware instrumentation
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Installing Rails 4 Controller instrumentation
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Installing Rails 4 view instrumentation
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Installing Rails 4 Error instrumentation
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Finished instrumentation
+[09/21/14 21:27:58 -0400 Rishis-Mac-Pro.local (48406)] INFO : Doing deferred dependency-detection before Rack startup
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Starting the New Relic agent in "development" environment.
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Reading configuration from config/newrelic.yml (/Users/rishighan/sites/fruitr)
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : New Relic Agent Developer Mode enabled.
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Environment: development
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Dispatcher: webrick
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Application: Fruitr
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] WARN : Agent configured not to send data in this environment.
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Installing ActiveRecord 4 instrumentation
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Installing Net instrumentation
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Installing deferred Rack instrumentation
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Installing Rack::Builder middleware instrumentation
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Installing Rails 3+ middleware instrumentation
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Installing Rails 4 Controller instrumentation
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Installing Rails 4 view instrumentation
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Installing Rails 4 Error instrumentation
+[09/21/14 21:31:36 -0400 Rishis-Mac-Pro.local (48490)] INFO : Finished instrumentation
+[09/21/14 21:31:37 -0400 Rishis-Mac-Pro.local (48490)] INFO : Doing deferred dependency-detection before Rack startup
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Starting the New Relic agent in "development" environment.
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Reading configuration from config/newrelic.yml (/Users/rishighan/sites/fruitr)
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : New Relic Agent Developer Mode enabled.
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Environment: development
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Dispatcher: webrick
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Application: Fruitr
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] WARN : Agent configured not to send data in this environment.
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Installing ActiveRecord 4 instrumentation
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Installing Net instrumentation
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Installing deferred Rack instrumentation
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Installing Rack::Builder middleware instrumentation
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Installing Rails 3+ middleware instrumentation
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Installing Rails 4 Controller instrumentation
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Installing Rails 4 view instrumentation
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Installing Rails 4 Error instrumentation
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Finished instrumentation
+[09/21/14 21:37:10 -0400 Rishis-Mac-Pro.local (48595)] INFO : Doing deferred dependency-detection before Rack startup

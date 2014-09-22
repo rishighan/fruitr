@@ -10,7 +10,7 @@ class PagesController < ApplicationController
 
   def basic
   unless params[:name].blank?
-     @hotness = hotness URI::escape(params[:name])
+     #@hotness = hotness URI::escape(params[:name])
      @similar = similar URI::escape(params[:name])
      @hotArray, @famArray, @blogArray, @newsArray = Array.new(), Array.new(), Array.new(), Array.new()
      @artistImages = images URI::escape(params[:name])

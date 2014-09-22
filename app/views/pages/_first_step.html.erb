@@ -3,66 +3,66 @@
 	<thead>
 	<th>Artist</th>
 	<th>Hotness</th>
-	<th>Familiarity</th>	
+	<th>Familiarity</th>
 	</thead>
-	
+
  <% @similar["response"]["artists"].each do |artist|%>
 	<tr>
-	<td> <%= artist["name"]%> </td> 
+	<td> <%= artist["name"]%> </td>
 	<td> <%= hotness URI::escape(artist["name"])%></td>
-	<td> <%= familiarity URI::escape(artist["name"])%></td> 
-	
+	<td> <%= familiarity URI::escape(artist["name"])%></td>
+
 	</tr>
-		
+
 <%end%>
     <thead>
 	<th> &#8721;X, &#8721;Y Values</th>
 	<th> <% @similar["response"]["artists"].each do |artist|%>
-			<% @hotArray.push (hotness URI::escape(artist["name"])) %>
+			<% @hotArray.push(hotness URI::escape(artist["name"])) %>
 			<% @famArray.push(familiarity URI::escape(artist["name"])) %>
 		 <%end%>
-		<%=	@hotArray.reduce(0) {|x,y| x + y} %> 	
+		<%=	@hotArray.reduce(0) {|x,y| x + y} %>
 	</th>
-	
-	<th> 
-		<%=	@famArray.reduce(0) {|x,y| x + y} %> 	
-	</th>				
+
+	<th>
+		<%=	@famArray.reduce(0) {|x,y| x + y} %>
+	</th>
 	</thead>
-	
-	<thead>	
+
+	<thead>
 		<th>
-		 &#8721;XY	
-		</th>	
-		
+		 &#8721;XY
+		</th>
+
 		<th>
 		 <%= arrayMultiply @hotArray, @famArray %>
 		</th>
 	</thead>
-	
+
 	<thead>
 		<th>
 		 &#8721;X<sup>2</sup>, 	 &#8721;Y<sup>2</sup>
-		</th>	
-		
+		</th>
+
 		<th>
 		 <%= @hotArray.reduce(0) {|x,y| x + (y * y) } %>
 		</th>
-		
+
 		<th>
 		 <%= @famArray.reduce(0) {|x,y| x + (y * y) } %>
 		</th>
 	</thead>
-	
+
 	<thead>
 		<th>
 		 Correlation Coefficient
-		</th>	
-		
+		</th>
+
 		<th>
 		 <%= ruby_pearson @hotArray, @famArray %>
 		</th>
-		
-	
+
+
 	</thead>
 </table>
 
