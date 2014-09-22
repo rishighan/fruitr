@@ -12,22 +12,22 @@ RESULTS = 6
 
 # From Wikipedia:
 
-# In statistics, dependence refers to any statistical relationship between two random variables or two sets of data. 
+# In statistics, dependence refers to any statistical relationship between two random variables or two sets of data.
 # Correlation refers to any of a broad class of statistical relationships involving dependence.
 
-# Formally, dependence refers to any situation in which random variables do not satisfy a mathematical 
+# Formally, dependence refers to any situation in which random variables do not satisfy a mathematical
 # condition of probabilistic independence. In loose usage, correlation can refer to any departure of two or
-# more random variables from independence, but technically it refers to any of several more specialized types 
-# of relationship between mean values. There are several correlation coefficients, often denoted ρ or r, measuring 
+# more random variables from independence, but technically it refers to any of several more specialized types
+# of relationship between mean values. There are several correlation coefficients, often denoted ρ or r, measuring
 # the degree of correlation. The most common of these is the Pearson correlation coefficient, which is sensitive only
-# to a linear relationship between two variables (which may exist even if one is a nonlinear function of the other). 
+# to a linear relationship between two variables (which may exist even if one is a nonlinear function of the other).
 # Other correlation coefficients have been developed to be more robust than the Pearson correlation – that is,
 # more sensitive to nonlinear relationships.
 
-# Correlation Co-efficient Definition:    
-#  A measure of the strength of linear association between two variables. 
-#  Correlation will always between -1.0 and +1.0. 
-#  If the correlation is positive, we have a positive relationship. 
+# Correlation Co-efficient Definition:
+#  A measure of the strength of linear association between two variables.
+#  Correlation will always between -1.0 and +1.0.
+#  If the correlation is positive, we have a positive relationship.
 #  If it is negative, the relationship is negative.
 
 # Matrix multiplication
@@ -64,7 +64,7 @@ end
 
 
 def parseURL url
-  purl = URI.parse(url) # parse the URL 
+  purl = URI.parse(url) # parse the URL
   response = Net::HTTP.get_response(purl)
   json = JSON.parse(response.body)
 end
@@ -91,9 +91,9 @@ def biography artist
   url = "http://developer.echonest.com/api/v4/artist/biographies?api_key=#{ECHONEST_API_KEY}&name=#{artist}&format=json"
 end
 
-# Return similar artists given one or more artists for comparison. 
-# The Echo Nest provides up-to-the-minute artist similarity and recommendations from their 
-# real-time musical and cultural analysis of what people are saying across the Internet and what 
+# Return similar artists given one or more artists for comparison.
+# The Echo Nest provides up-to-the-minute artist similarity and recommendations from their
+# real-time musical and cultural analysis of what people are saying across the Internet and what
 # the music sounds like.
 def similar artist
   url = "http://developer.echonest.com/api/v4/artist/similar?api_key=#{ECHONEST_API_KEY}&bucket=years_active&name=#{artist}&format=json&start=0&results=#{RESULTS}"
@@ -133,5 +133,5 @@ end
 def search genre, startyear, endyear
   url ="http://developer.echonest.com/api/v4/artist/search?api_key=#{ECHONEST_API_KEY}&sort=hotttnesss-desc&format=json&style=#{genre}&artist_start_year_after=#{startyear}&artist_end_year_before=#{endyear}&results=#{RESULTS}"
   result = parseURL url
-  
+
 end
