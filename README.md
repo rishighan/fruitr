@@ -4,7 +4,7 @@ http://fruitr.rishighan.com
 
 Fruitr is an experiment with the Echonest API.
 
-It is an exposition of the idea stated here: http://www.rishighan.com/thesis/coconuts-and-collateral
+It is an exposition of the idea stated here: http://www.rishighan.com/thesis/
 
 The initial idea calculates the Pearson product-moment coefficient of correlation between the hotttnesss and familiarity ratings retrieved from Echonest. This helps to add a layer of verification on top of the numerical ratings that Echonest applies to intangible concepts such as how 'hot' an artist is.
 
