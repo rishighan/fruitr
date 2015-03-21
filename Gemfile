@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '4.0.3'
+gem 'rails', '4.2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -25,6 +25,10 @@ gem "less-rails", "~>2.5.0"
 gem "twitter-bootstrap-rails"
 gem 'sass-rails'
 gem 'coffee-rails'
+
+
+#DDoS protection
+gem 'rack-attack'
 
 # Gems used only for assets and not required
 # in production environments by default.
